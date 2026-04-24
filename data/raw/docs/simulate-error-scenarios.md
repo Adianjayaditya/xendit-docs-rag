@@ -1,0 +1,19 @@
+---
+url: https://docs.xendit.co/docs/simulate-error-scenarios
+title: Simulate error scenarios
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:23:50.837914Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationAccept paymentsIntegration guidePayments via API
+- Documentation
+- Accept payments
+- Integration guide
+- Payments via API
+---
+# Simulate error scenarios
+
+To allow a full test coverage of error scenarios before going live, Xendit provides different methods for your system to simulate success, error and failure scenarios. You can simulate these scenarios using an API key created in Test Mode. Refer to the table below for the list of supported scenarios.
+
+*Click on each row to see full details of each scenario.*

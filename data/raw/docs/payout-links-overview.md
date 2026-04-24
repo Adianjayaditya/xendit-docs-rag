@@ -1,0 +1,60 @@
+---
+url: https://docs.xendit.co/docs/payout-links-overview
+title: Overview
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:22:10.336628Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationSend moneyPayout productsPayout links
+- Documentation
+- Send money
+- Payout products
+- Payout links
+---
+# Overview
+
+Payout Links simplify sending money to customers when you don't have their bank details. Instead of manually collecting information, you provide a secure Xendit-hosted link where customers can conveniently enter their own account details to claim their payout.
+
+Typically, to payout to a customer, you would need to reach out to your customer to get their bank details, have multiple contacts to confirm those details, then have the finance team manually process the disbursement. With Payout Links, you can minimize the operational hassle of gathering bank details from customers.
+
+While most of our customers use Payout Links for refunding transactions, there are many other use cases for this product including deposit returns, paying out staff, giving bonuses, and cashbacks.
+
+## How it works
+
+### Create a Payout Link
+
+Create your Payout Link to start sending funds to your recipient without the need to collect their account detail on your own. Once successfully created, we will send a Payout Link URL and a secret password to your recipient’s email.
+
+To get started, see [Payout Link Dashboard Creation](/docs/payout-link-via-dashboard) or [Payout Link API Integration](/docs/integration-payout-links).
+
+### Claim your Payout Link
+
+After the recipient receives the payout link URL via email, they need to fill in their account details and complete a verification to trigger payout initiation. Below are the information that the recipient need to fill in:
+
+| Field | Description |
+| --- | --- |
+| Destination Channel | The channel name of the recipient’s account |
+| Account Number | Recipient’s account number |
+| Secret Password | The secret password that was sent in the payout link to the recipient’s email |
+
+![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Payout User Journey(1).gif?sv=2022-11-02&spr=https&st=2026-04-23T06%3A22%3A06Z&se=2026-04-23T06%3A34%3A06Z&sr=c&sp=r&sig=ggS2v%2FOzIG15vksTVx0qaa3F0qPahI%2Ff14s09SSe4BU%3D)
+
+### Track your Payout Link
+
+When your recipient has submitted their account detail and verified the claim using secret key, a payout will be initiated. Your recipient can track the payout progress in the payout link UI.
+
+- When payout is completed, we will send a receipt notification to the recipient’s email
+- When payout is failed, you have to recreate the new payout link for your recipient and inform your recipient to try again. Payout link can fail due to insufficient balance on your Xendit account or destination account is invalid. See [Payout Lifecycle](/docs/payout-status-lifecycle) for more details.
+
+## Payout Link Statuses
+
+Payout Links has its own status that will help you to easily identify which payouts are already completed, claimed, or failed/voided. These are the possible statuses payout links can have:
+
+| **Status** | **Description** |
+| --- | --- |
+| `PENDING` | Payout Links has been successfully created and payout link has been sent to the recipient email. At this point, the payout has not been initiated as recipient has not claimed it. |
+| `CLAIMED` | The recipient has successfully claimed the payout links and payout is initiated |
+| `COMPLETED` | Funds successfully paid to the recipient bank account |
+| `FAILED` | The payout link has failed. Reasons can vary from expiring without being claimed, locking due to password failures, to an issue with the bank payout |
+| `VOIDED` | The payout links has been voided. This issue is raised because the payout is expired or manually voided by hitting the void endpoint |

@@ -1,0 +1,44 @@
+---
+url: https://docs.xendit.co/docs/customize-xendit-hosted-page
+title: Customize checkout page
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:32:48.582845Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationAccept paymentsIntegration guidePayment Link (Legacy)
+- Documentation
+- Accept payments
+- Integration guide
+- Payment Link (Legacy)
+---
+# Customize checkout page
+
+The Xendit-hosted checkout page supports customization to make it more personalized for your business. You can easily set this up through the Xendit Dashboard.
+
+### **Customize appearance**
+
+You can adjust the appearance of the hosted page to match your business's branding by customizing the colors. Navigate to: [**Xendit Dashboard > Settings > Checkout > Customize Appearance.**](https://dashboard.xendit.co/settings/checkout#customize-appearance)
+
+The changes will automatically apply to all Payment Links created, ensuring a consistent and branded customer experience.
+
+![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(91).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A44Z&se=2026-04-23T06%3A43%3A44Z&sr=c&sp=r&sig=Nr%2FhtYuxzwSlE4r4OGC%2BXdJd3FzxjG4YTwywlTkMXcE%3D "image(91).png")
+
+| **Setting** | **Details** |
+| --- | --- |
+| **Preview** | See how the UI looks on different devices (desktop and mobile). |
+| **Background Color** | Choose an RGB color that reflects your brand's identity. |
+| **Buttons & Accents** | Adjust button colors and other accent elements to enhance the aesthetic of the checkout. |
+| **Time Format** | Select between 12-hour or 24-hour formats for time display. |
+
+### **Payment settings**
+
+You can customize the Xendit-hosted page at the payment settings level. This allows you to:
+
+- Choose which payment channels to display
+- Set the default language and currency
+- Define the default duration for payment links
+
+To configure these settings, go to [**Xendit Dashboard > Settings > Checkout > Payment Settings**](https://dashboard.xendit.co/settings/checkout#payment-settings). Once set, these preferences will apply to all Payment Links *unless specific settings are defined during their creation.*
+
+![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(92).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A44Z&se=2026-04-23T06%3A43%3A44Z&sr=c&sp=r&sig=Nr%2FhtYuxzwSlE4r4OGC%2BXdJd3FzxjG4YTwywlTkMXcE%3D "image(92).png")

@@ -1,0 +1,56 @@
+---
+url: https://docs.xendit.co/docs/reports-overview
+title: Overview
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:05:15.327002Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationReports
+- Documentation
+- Reports
+---
+# Overview
+
+Xendit provides several types of general reports across all payment channels for businesses.
+
+## Types of Reports
+
+### Transaction Report
+
+The [Transactions Report](/v1/docs/transactions-report) provides detailed insights into all transaction activities within Xendit, facilitating effective monitoring and management of financial operations. The Transactions Report helps you reconcile your Xendit balance at the end of the month. It provides an itemized list of your complete transaction history, including any custom metadata associated with those transactions. All transactions are displayed in your settlement currency (after any foreign currency conversions).
+
+If you have Auto Withdrawal enabled and prefer to reconcile the transactions included in each withdrawal, refer to the [Auto Withdrawal Report](/v1/docs/auto-withdrawal-report) instead.
+
+- Displays each transaction along with associated **Fees** and **Fee VAT**.
+- Transactions are recorded before the money movement is completed:
+
+  - **Money-in:** Created with a "pending settlement" status when a payment is made.
+  - **Money-ou**t: Created with a "pending" status when a payment is initiated.
+- Transaction reports are available via on-demand export and scheduled to SFTP or Email. See [Transactions Report](/v1/docs/transactions-report) for further details.
+
+### Detailed transactions report
+
+[Detailed Transactions Report](/v1/docs/detailed-transactions-report) displays each transactions along with granular details pertaining to each payment method.
+
+- Detailed Transactions Report are meant to ease search within transactions.
+- Detailed Transactions Report are available via on-demand export only. See [Detailed Transactions Report](/v1/docs/detailed-transactions-report) for further details
+
+### Balance report
+
+[Balance Report](/v1/docs/balance-report) provides an itemized list of debit or credit money movement in your balance. It contains the same data as the Transactions Report but is equivalent to filtering the Transactions Report to show only settled transactions. In the Balance Report, each transaction, its associated fee, and VAT are recorded as three separate entries.
+
+- Balance reports are available via on-demand export and scheduled to SFTP or email. See [Balance Report](/v1/docs/balance-report) for further details.
+
+### Auto-Withdrawal report
+
+For users with Auto Withdrawal enabled, the report is optimized to help reconcile payouts received in your bank account with the batches of payments and other transactions they relate to.
+
+- Each line represents a payout from Xendit to your withdrawal bank account.
+- Auto Withdrawal reports are available to export after every successful withdrawal. See [Auto Withdrawal reports](/v1/docs/auto-withdrawal-report) for further details.
+
+### Billing report
+
+The[Billing Report](/v1/docs/billing-report) provides a detailed breakdown of transaction fees associated with your Xendit account. It enables you to audit your fees on a per transaction basis.
+
+- Billing reports are available to export after every monthly billing cycle. See [Billing Report](/v1/docs/billing-report) for further details.

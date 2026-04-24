@@ -1,0 +1,25 @@
+---
+url: https://docs.xendit.co/docs/shopify-introduction
+title: Shopify
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:22:40.904322Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationAccept paymentsPayment productsPlug-ins
+- Documentation
+- Accept payments
+- Payment products
+- Plug-ins
+---
+# Shopify
+
+Shopify is a user-friendly e-commerce platform that helps businesses create, customize, and manage online stores. It offers templates for easy website creation and a range of features, including shopping cart, store management, marketing, and SEO tools, to support your selling needs.
+
+## **Payment Flow**
+
+![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(97).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A22%3A37Z&se=2026-04-23T06%3A33%3A37Z&sr=c&sp=r&sig=aSBf21RHpAmADvzaxCBsl3Zy3OnpEzvOK301HdsOOAA%3D "image(97).png")
+
+\
+
+Follow our [installation guide](/v1/docs/shopify) to start accepting payments with the Xendit on your Shopify store.

@@ -1,0 +1,99 @@
+---
+url: https://docs.xendit.co/docs/components-one-time-payment
+title: One Time Payment
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:20:51.194510Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationAccept paymentsIntegration guidePayment SessionsComponents
+- Documentation
+- Accept payments
+- Integration guide
+- Payment Sessions
+- Components
+---
+# One Time Payment
+
+Payment Sessions allow you to securely collect a payment from your customer **directly within your own website or application** using Xendit Components. This integration embeds **PCI-compliant payment fields** into your checkout UI, ensuring regulatory compliance while keeping customers on your domain.
+
+This flow is commonly used to accept **one-time payments** with a fully branded checkout experience.
+
+**Example usage**
+
+- eCommerce checkout: Collect payment directly on your checkout page without redirecting customers.
+- In-app purchases or SaaS billing: Charge customers inside your web or mobile app while maintaining consistent UI and UX.
+
+## How to integrate
+
+Refer to the [Xendit Components integration guide](https://docs.xendit.co/docs/components-overview) for the implementation.
+
+Below is the guideline for the Payment Session request for a one-time payment flow. During checkout, or whenever your customer is ready to make a one-time purchase, your system should create a Payment Session with Xendit using the example payload below.
+
+**Request -** `POST /sessions`
+
+JSON
+
+```
+{
+    "reference_id": "{{$YOUR_REFERENCE_ID}}",
+    "session_type": "PAY",
+    "mode": "COMPONENTS",
+    "amount": 10000,
+    "currency": "IDR",
+    "country": "ID",
+    "customer": {
+        "reference_id": "{{$randomUUID}}",
+        "type": "INDIVIDUAL",
+        "email": "customer@yourdomain.com",
+        "mobile_number": "+628123456789",
+        "individual_detail": {
+            "given_names": "John",
+            "surname": "Doe"
+        }
+    },
+    "components_configuration": {
+        "origins": ["https://example.com"]
+    }
+}
+```
+
+JSON
+
+Copy
+
+**Response -** `POST /sessions`
+
+JSON
+
+```
+{
+    "payment_session_id": "ps-69649592c951f34f173f803a",
+    "created": "2026-01-12T06:32:50.550Z",
+    "updated": "2026-01-12T06:32:50.550Z",
+    "status": "ACTIVE",
+    "reference_id": "{{$YOUR_REFERENCE_ID}}",
+    "currency": "IDR",
+    "amount": 10000,
+    "country": "ID",
+    "expires_at": "2026-01-12T07:02:50.059Z",
+    "session_type": "PAY",
+    "mode": "COMPONENTS",
+    "locale": "en",
+    "business_id": "62440e322008e87fb29c1fd0",
+    "customer_id": "cust-138123c0-50de-49bb-b804-ead0e1e35914",
+    "capture_method": "AUTOMATIC",
+    "components_sdk_key": "session-907388bd5ccd790edb241bed00c80000-pl-MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE8zNjokzwdcj/11UkV77757+zQCQAc/Hsez5Ue2+UVEVXCKmQlVhpKGBHY1G5TPWIVUs4JdK8xLA9OihdACCRv7Z66B/caBfhU6V+pTXjiZ/OBcCYUP/cm4mkn5qHZ6N8-UQiUzNWiQad32u5F+pHrumyTsAPwCbojrBaEj+kNpsstysk7G6B4i+r7pgTMye860bMB1KVsLbBSMLYRB9gsb7x/5RJV0Y04yQ+sHBzHOLq3ab9g3g+IQ6C2YElXdvWf",
+    "components_configuration": {
+        "origins": ["https://example.com"]
+    }
+}
+```
+
+JSON
+
+Copy
+
+You can refer to the [Xendit Components client-side documentation](https://docs.xendit.co/docs/components-overview#clientside-responsibilities) for client-app integration using the returned `components_sdk_key`.
+
+Upon successful payment, Xendit will send a `payment_session.completed` webhook to your system. You should use this webhook to mark the order as **paid.** Optionally, you may also listen to the `payment.capture` webhook to retrieve detailed payment information. Both events are correlated using `payment_id`.

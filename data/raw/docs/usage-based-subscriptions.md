@@ -1,0 +1,53 @@
+---
+url: https://docs.xendit.co/docs/usage-based-subscriptions
+title: Usage-based Subscriptions
+description: ''
+section: docs
+scraped_at: '2026-04-23T06:20:43.393721Z'
+source: https://docs.xendit.co
+breadcrumbs:
+- DocumentationAccept paymentsIntegration guideSubscriptions
+- Documentation
+- Accept payments
+- Integration guide
+- Subscriptions
+---
+# Usage-based Subscriptions
+
+Usage-based subscription is a type of recurring payment model where the payment amount varies and is determined based on the user's consumption or usage at a specific cut-off time before the next billing cycle. This model offers flexibility for businesses that charge customers based on actual usage rather than a fixed fee.
+
+Common use cases include utility services, postpaid plan for telecommunication, ride hailing, SaaS or cloud storage subscriptions, and many more.
+
+## How to integrate
+
+In usage-based subscriptions, the amount to be charged must be defined for each billing cycle before the cycle begins. This ensures that the end user’s balance can be accurately deducted based on their usage during the period.
+
+Xendit Checkout UI
+
+Existing Payment Token
+
+1. First create the Payment Sessions with subscription type to initate the linking
+
+   | Request - POST /sessions    Custom  ``` {     "reference_id": "TEST_{{$timestamp}}",     "customer": {         "reference_id": "test-{{$timestamp}}",         "type": "INDIVIDUAL",         "individual_detail": {             "given_names": "TEST"         }     },     "session_type": "SUBSCRIPTION",     "subscription": {         "schedule": {             "interval": "MONTH",             "interval_count": 1,             "anchor_date": "2026-04-09T23:23:52+07:00",             "total_recurrence": 100,             "retry_interval": "DAY",             "retry_interval_count": 5,             "total_retry": 7,             "failed_attempt_notifications": [                 1,                 3,                 5             ]         },         "immediate_payment": false,         "failed_cycle_action": "RESUME"     }, "currency": "IDR", "amount": 10000, "mode": "PAYMENT_LINK", "country": "ID", "locale": "en", "description": "Insurance Plan Registration", "success_return_url": "https://xendit.co/success", "cancel_return_url": "https://xendit.co/failure" } ```   JSON  Copy | Response - POST /sessions    Custom  ``` {     "payment_session_id": "ps-69d5f625da22a3584993b763",     "created": "2026-04-08T06:31:02.078Z",     "updated": "2026-04-08T06:31:02.078Z",     "status": "ACTIVE",     "reference_id": "TEST_1775629861",     "currency": "IDR",     "amount": 10000,     "country": "ID",     "expires_at": "2026-04-08T07:01:01.083Z",     "session_type": "SUBSCRIPTION",     "mode": "PAYMENT_LINK",     "locale": "en",     "business_id": "5f1e60a0abb3a70ffd45e485",     "customer_id": "cust-da1a36cb-e33d-4f62-a34b-256029b5d9c5",     "description": "Insurance Plan Registration",     "subscription": {         "schedule": {             "interval": "MONTH",             "interval_count": 1,             "anchor_date": "2026-04-09T23:23:52+07:00",             "total_recurrence": 100,             "retry_interval": "DAY",             "retry_interval_count": 5,             "total_retry": 7,             "failed_attempt_notifications": [                 1,                 3,                 5             ]         },         "immediate_payment": false,         "failed_cycle_action": "RESUME"     },     "success_return_url": "https://xendit.co/success",     "cancel_return_url": "https://xendit.co/failure",     "recurring_plan_id": "repl_8eb75eae-30eb-40d9-a420-423e88b703e3",     "payment_link_url": "https://dev.xen.to/a5LftpcH" } ```   JSON  Copy |
+   | --- | --- |
+2. After creating a session, redirect the end user to the Xendit-hosted page using the `payment_link_url` object or render for component mode from the API response. This step allows the end user to link their payment method to the subscription plan.
+3. Once the end user successfully links their payment method, Xendit will send a `recurring.plan.activation` webhook to confirm the activation of the subscription plan.
+4. Xendit will send a `recurring.cycle.created` webhook for each upcoming billing cycle, notifying you that the next cycle is about to begin. You can store the cycle.id on your end to be used for updating next cycle billing ([learn more](https://docs.xendit.co/apidocs/update-subscription-cycle-2)).
+5. **[Important]** To deduct the user's balance accurately for the upcoming billing cycle, you must use the **Update Cycle** API to define the total usage-based amount to be charged. This update must be completed before the `scheduled_timestamp` date (e.g., if `scheduled_timestamp` is "2026-12-20," the update should occur no later than "2026-12-19"). Once the date component of the `scheduled_timestamp` is reached, no further updates can be made to that cycle.
+6. This process needs to be repeated for each subsequent billing cycle to reflect the correct usage-based charges.
+
+1. To start, you need to create a customer object in Xendit by registering the end user's details.
+
+   | Request - POST /customers    Custom  ``` {      "reference_id": "demo_1475801962688",      "type": "INDIVIDUAL",      "individual_detail": {        "given_names": "John",        "surname": "Doe"      },      "email": "customer@website.com",      "mobile_number": "+628121234567890" } ```   JSON  Copy | Response - POST /customers    Custom  ``` {     "type": "INDIVIDUAL",     "date_of_registration": null,     "email": "customer@website.com",     "mobile_number": "+628121234567890",     "phone_number": null,     "created": "2024-12-06T02:42:36.343Z",     "updated": "2024-12-06T02:42:36.343Z",     "description": null,     "hashed_phone_number": null,     "domicile_of_registration": null,     "kyc_documents": [],     "id": "cust-ab93b98b-3e79-4961-b243-66a0e66daadc",     "reference_id": "demo_1475801962688",     "metadata": null,     "individual_detail": {         "given_names": "John",         "given_names_non_roman": null,         "surname": "Doe",         "surname_non_roman": null,         "nationality": null,         "date_of_birth": null,         "place_of_birth": null,         "gender": null,         "employment": null     },     "business_detail": null,     "addresses": [],     "identity_accounts": [] } ```   JSON  Copy |
+   | --- | --- |
+2. Once the end user is registered, create a subscription plan tailored to their preference and needs
+
+   | Request - POST /recurring/plans    Custom  ``` {     "reference_id": "plan-{{$timestamp}}",       "customer_id": "cust-ab93b98b-3e79-4961-b243-66a0e66daadc",     "currency": "IDR",     "amount": 10000,     "payment_tokens": [         {             "payment_token_id": "pt-7f570a37-4e1f-4952-85d5-606b59428349",             "rank": 1         }     ],     "schedule": {         "interval": "MONTH",         "interval_count": 1,         "anchor_date": "2026-04-09T23:23:52+07:00",         "total_recurrence": 100,         "retry_interval": "DAY",         "retry_interval_count": 5,         "total_retry": 7,         "failed_attempt_notifications": [             1,             3,             5         ]     },     "immediate_payment": false,     "failed_cycle_action": "RESUME",     "notification_channels": [         "EMAIL",         "EMAIL"     ],     "locale": "en",     "payment_link_for_failed_attempt": true,       "metadata": {         "customKey": "customValue"       },     "description": "Subscription Example 01" } ```   JSON  Copy | Response - POST /recurring/plans    Custom  ``` {     "id": "repl_19299f7e-aeb1-4006-a449-645121965efe",     "reference_id": "plan-1775629572",     "customer_id": "cust-ab93b98b-3e79-4961-b243-66a0e66daadc",     "failed_cycle_action": "RESUME",     "recurring_cycle_count": 0,     "country": "ID",     "currency": "IDR",     "amount": 10000,     "status": "ACTIVE",     "created": "2026-04-08T06:26:12.448Z",     "updated": "2026-04-08T06:26:12.448Z",     "payment_tokens": [         {             "payment_token_id": "pt-7f570a37-4e1f-4952-85d5-606b59428349",             "rank": 1         }     ],     "schedule": {         "interval": "MONTH",         "interval_count": 1,         "total_recurrence": 100,         "anchor_date": "2026-04-09T23:23:52+07:00",         "retry_interval": "DAY",         "retry_interval_count": 5,         "total_retry": 7,         "failed_attempt_notifications": [             1,             3,             5         ],         "created": "2026-04-08T06:26:12.448Z",         "updated": "2026-04-08T06:26:12.448Z"     },     "immediate_payment": false,     "locale": "en",     "notification_channels": [         "EMAIL",         "EMAIL"     ],     "metadata": {         "customKey": "customValue"     },     "description": "Subscription Example 01",     "items": null,     "payment_link_for_failed_attempt": true,     "failure_code": null } ```   JSON  Copy |
+   | --- | --- |
+3. After creating a subscription, redirect the end user to the Xendit-hosted page using the `payment_link_url` object from the API response. This step allows the end user to link their payment method to the subscription plan.
+4. Once the end user successfully links their payment method, Xendit will send a `recurring.plan.activation` webhook to confirm the activation of the subscription plan.
+5. Xendit will send a `recurring.cycle.created` webhook for each upcoming billing cycle, notifying you that the next cycle is about to begin. You can store the cycle.id on your end to be used for updating next cycle billing.
+6. **[Important]** To deduct the user's balance accurately for the upcoming billing cycle, you must use the **Update Cycle** API to define the total usage-based amount to be charged. This update must be completed before the `scheduled_timestamp` date (e.g., if `scheduled_timestamp` is "2026-12-20," the update should occur no later than "2026-12-19"). Once the date component of the `scheduled_timestamp` is reached, no further updates can be made to that cycle.
+7. This process needs to be repeated for each subsequent billing cycle to reflect the correct usage-based charges.
+
+Learn more about payments lifecyle [here](https://xendit-docs.document360.io/docs/payment-links-api-overview#payment-link-lifecycle).
