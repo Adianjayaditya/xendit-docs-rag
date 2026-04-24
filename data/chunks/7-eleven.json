@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 1,
+    "text": "# 7-Eleven\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2024-11-29 at 11.50.21.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A33%3A56Z&se=2026-04-23T07%3A09%3A56Z&sr=c&sp=r&sig=DSAwbj1l%2FJ5GaU9wt7AuhuzOHYGRsH37mUbMyhmKzpQ%3D)\n\n7-Eleven in the Philippines offers a convenient, cash-based payment option for online shoppers. With over 3,000 stores nationwide, it provides an easy way for customers to pay for online purchases, particularly for those without bank accounts or credit cards.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | 7ELEVEN |\n| **Display Name** | 7-Eleven |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | OVER THE COUNTER |\n| **Min Amount** | 50 |\n| **Max Amount** | 50,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | ✓ |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+5 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n\\*: Expiry can be set from 2 hours and max 216 hours (9 days)\n\n## How to pay\n\n1. End-customer to select 7-ELEVEN on the checkout page link provided by merchant\\\n   **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeJQ9erSL6DrqCl6-oQak8tuTKJZpQC9L6-vrjSAWuszgwO_JvOn4JTJNQPYhUz0tGtsMsxCYG65mzw3rAc6V-z2Y97moGC2PUeNZt5jfuv7EUBG7muL8d3L8us2n19GjaRx9qXdyfBr6A9QA_g3VXJe5E?key=VJLodb5kt5uCMs7Phc3XRg)**\n2. Visit your nearest 7-ELEVEN branch before payment code expires\\\n3. End-customer to show barcode from checkout page to the cashier\\\n   **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc9TxlBkDH0ZPnHjdskNGBTDZM9cCXiKoc2XOJOueGQcgRKtA9facpkG9s9cSOq0kIlPAZZbvBv1dh28fyze5TRwyOKNjPelYgee_baJSvlLOELqBiGKsDMc-4rEj_MdtwRaKVyRv5-ss5DoD8hG0p_DbVE?key=VJLodb5kt5uCMs7Phc3XRg)**\n4. End-customer to pay the amount specified on the checkout page\\\n5. End-customer will receive a receipt as proof of payment\\\n   **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc5GxeVA-TILlMXj7xuw-FF-1R0XQawrgZ1dwrnPMyEkaoVs5kQGH4BwIXZ-Wb0IObeZEcsQMGYmMGOj8UGiYYBcWbsjdjciYtWhz0zbaPUZPV8uoIr58BzWtnyBFewIGIaZM9da2s1lG-HV3MtavIHo20?key=VJLodb5kt5uCMs7Phc3XRg)**\n6. Checkout page will be updated to successful payment\\\n   **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeqTwfzC1i1QoQFCzS8bJMxMAl8ufdLDysPQr5K1Xeg5rAWN_2McE1dprFBfpds6_jupHqbU04XzlqrDRsYKYC9LqpfRihRPl47GmerxnU_gN9vR0Rs1u6SmGqUyya68OzOYMwb5Mh5MGFIh2f7zlPSSMI?key=VJLodb5kt5uCMs7Phc3XRg)**",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/7-eleven",
+      "title": "7-Eleven",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:33:59.822128Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 1,
+      "source_file": "7-eleven.md"
+    }
+  }
+]

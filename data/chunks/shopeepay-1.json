@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 230,
+    "text": "# ShopeePay E-Wallet\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/ShopeePay_Ver.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A45Z&se=2026-04-23T06%3A46%3A45Z&sr=c&sp=r&sig=N%2BZgvsRPrjrxuwsx0nSmVnImB28o3oZuYzglOsfW0Qw%3D)\n\nShopeePay Wallet is Thailand's leading e-wallet that provides a convenient and secure way for customers to make payments online and in-store.\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel code** | `SHOPEEPAY` |\n| **Currency** | THB |\n| **Minimum amount** | 1 |\n| **Maximum amount** | 200,000 |\n| **User approval flow** | REDIRECT |\n| **Save** | ❌ |\n| **Recurring** | ❌ |\n| **Auth & capture** | ❌ |\n| **Partial capture** | ❌ |\n| **Multiple partial capture** | ❌ |\n| **Payment request expiry** | 2 hours |\n| **Payment token validity** | ❌ |\n| **Settlement time** | Instant |\n| **Refund** | ❌ |\n| **Partial refund** | ❌ |\n| **Multiple partial refund** | ❌ |\n| **Refund validity** | ❌ |\n| **Compatible integration** | Payment API, Payment Link |\n\n**Payment Flow**\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/ShopeePay-TH%20Flow.mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A45Z&se=2026-04-23T07%3A35%3A45Z&sr=c&sp=r&sig=yh21tK6MBTrpwHO7hcYkAWFyhdZYgqBhnz%2FNzRZCTjQ%3D)\n\n1. On the checkout page, end customers select ShopeePay E-Wallet\n2. Redirect end customers to Shopee app to make the payment\n3. End customers confirm the payment amount and merchant is correct\n4. End customers click Pay to confirm the payment",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/shopeepay-1",
+      "title": "ShopeePay E-Wallet",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:50.225114Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 230,
+      "source_file": "shopeepay-1.md"
+    }
+  }
+]

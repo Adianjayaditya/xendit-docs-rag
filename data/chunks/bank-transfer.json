@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 29,
+    "text": "# Bank Transfer\n\nBank transfers in the Philippines are typically made via InstaPay or PesoNet. To accept bank transfers from your customers, you can create unique virtual account numbers assigned to each of your users. They can easily make payments via bank transfer\n\nYour customers can complete the transfer via mobile banking, internet banking, or ATM. Once the payment is made, you receive an instant confirmation, ensuring a seamless and secure payment experience for both you and your customers.\n\nNote that the source of funds must be a bank or Electronic Money Issuer that’s part of the InstaPay / PesoNet networks.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | BANK\\_TRANSFER |\n| **Display Name** | Bank Transfer |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | BANK TRANSFER |\n| **Min Amount** | 1 |\n| **Max Amount** | 200,000,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | ✓ |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | T+1 BUSINESS DAYS |\n| **Settlement Time** | T+3 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | - |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\nMobile banking\n\n1. Log in to your banking or e-wallet app (must support InstaPay / PesoNet)\n2. Select **Bank Transfer > InstaPay or PesoNet (some apps may not allow you to choose)**\n3. Select **Asia United Bank (AUB)** as the recipient bank\n4. Enter **merchant name**\n5. Enter **virtual account number** (e.g. 7057601478328965)\n6. Enter **amount to pay**\n7. Enter **PIN**\n\nInternet banking\n\n1. Log in to your preferred internet banking portal (must support InstaPay / PesoNet)\n2. Select **Bank Transfer > InstaPay or PesoNet (some apps may not allow you to choose)**\n3. Select **Asia United Bank (AUB)** as the recipient bank\n4. Enter **merchant name**\n5. Enter **virtual account number** (e.g. 7057601478328965)\n6. Enter **amount to pay**\n7. Enter **PIN**\n\n##\n\nExamples of the payment interface on GCAsh and BPI",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/bank-transfer",
+      "title": "Bank Transfer",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:34:09.799847Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 29,
+      "source_file": "bank-transfer.md"
+    }
+  }
+]

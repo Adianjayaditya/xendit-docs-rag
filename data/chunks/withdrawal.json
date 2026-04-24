@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 278,
+    "text": "# Withdraw balance\n\nYou can withdraw your funds from your Xendit balance to the bank accounts that you’ve added to Xendit. There are 2 main ways that you can withdraw:\n\n- **Manual withdrawals:** Make withdrawals from your Balance page\n- [**Auto-Withdrawals**](/v1/docs/auto-withdrawal)**:** Schedule recurring withdrawals to automate the process\n\nProcessing times for withdrawals will vary based on your chosen method, when the request is made, and the information you provide.\n\n## How to make manual withdrawals\n\n### Local withdrawals\n\nFrom the Balance page, trigger a Withdrawal and select “Local Withdrawal”. Enter the withdrawal amount, select a registered withdrawal account, enter your PIN then submit the request.\n\n1. Go to your **Balance** page\n2. Click **Withdraw**\n3. Select **Local Withdrawal**\n4. Enter the **amount you want to withdraw**\n5. Choose which **bank account** to send the funds to\n6. Enter your PIN\n7. Click **Submit**\n\n### Cross-border withdrawals\n\n1. Go to your **Balance** page\n2. Click **Withdraw**\n3. Select **Cross-border Withdrawal**\n4. Choose which **bank account** to send the funds to\n5. Enter the **amount you want to withdraw** (you'll see the exchange rate and the amount you’ll receive in your bank account)\n6. If necessary, upload the **underlying document\\***\n7. Confirm your **withdrawal details**\n8. Click **Submit**\n\n*\\*Each cross-border withdrawal requires an underlying document for regulatory and partner compliance. A template is provided on the withdrawal form (click* ***Download template****) which you can use to fill in your information.*\n\nTransfer fees are applicable for cross-border withdrawals. See [here](https://www.xendit.co/en-id/products/cross-border-payments/) for details on fees.\n\n## Tracking withdrawals\n\n> This feature is not available for [Global Accounts](/docs/available-features).\n\nYou can set up automated notifications of completed withdrawals from the Dashboard under Withdrawal Settings. Add up to 10 email addresses as recipients who will receive emails notifying them of completed withdrawals. This applies to both manual and Auto-Withdrawals.\n\nYou can also check the status of individual withdrawal transactions from the Balance tab. Use the Balance History tab and filter out Withdrawal transactions within the right duration. If the withdrawal shows up, it’s completed. Otherwise, repeat the same process on the Pending tab to locate the pending withdrawal.\n\n## Limits & Processing Times\n\nPlease refer to the table below for the corridors, fees and processing times for withdrawals. You may use the dropdown to filter the information by **recipient currency**.\n\n### Maximum amount limits\n\nThere are maximum amount limits for withdrawals to several destination banks in the Philippines, Thailand and Malaysia. Please refer to the table below for the list of limits. You may click through the tabs to filter the information by **recipient bank country**.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/withdrawal",
+      "title": "Withdraw balance",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:05:49.565038Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 278,
+      "source_file": "withdrawal.md"
+    }
+  }
+]

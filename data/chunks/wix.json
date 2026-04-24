@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 281,
+    "text": "# Wix\n\n> Supported only for ID and PH businesses.\n\nWix is a cloud-based web development platform that lets users create HTML5 websites and mobile sites using drag-and-drop tools. Its eCommerce system allows you to sell a wide range of products with easy setup.\n\nFollow this guideline to start integrating Xendit with your Wix platform.\n\n## **Requirements**\n\nBefore integrating Xendit with Wix, ensure the following:\n\n1. **Xendit Registration**:\n\n   - Register with Xendit to obtain your **test** and **live API keys**.\n2. **Wix Account**:\n\n   - Sign up for Wix and subscribe to the **Business Plan** or **eCommerce Plan** package.\n\n## Installation\n\nHere are the steps you need to do to integrate Xendit and your Wix store:\n\n1. Go to *Setting > Accept Payments* in your Wix dashboard and choose \"Online Payments by Xendit\" in **More Payment Options**, click Connect\n2. Input Xendit API key to the **Secret Key** field in your Wix dashboard Xendit setting\n\n   1. To process test transaction, please input Secret Key from Xendit Dashboard in Test environment\n   2. To process real transaction, please input Secret Key from Xendit Dashboard in Live environment\n3. Click **Connect**\n\n## Payment Flow\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Wix Payment Flow VA.gif?sv=2022-11-02&spr=https&st=2026-04-23T06%3A16%3A41Z&se=2026-04-23T06%3A27%3A41Z&sr=c&sp=r&sig=7pp71bzpXYzAin8o2mygQ4%2BL4fOKXdWuZgZypjJQ6sg%3D)\n\n\\",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/wix",
+      "title": "Wix",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:16:45.741642Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 281,
+      "source_file": "wix.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 134,
+    "text": "# Krungsri Mobile Banking\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/KMA.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A24Z&se=2026-04-23T07%3A11%3A24Z&sr=c&sp=r&sig=uSOn4wBoIOOPXyjAyfENyjg3LbdxyZOK0AlNRtP5G6s%3D)\n\nBank of Ayudhya (BAY), branded and commonly referred to as Krungsri offers convenient and quick payment options for customers in Thailand. Its popularity stems from its user-friendly interface and extensive payment support.\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel Code** | KRUNGSRI\\_MOBILE\\_BANKING |\n| **Display Name** | Krungsri Mobile Banking |\n| **Currency** | THB |\n| **Country** | TH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 20 |\n| **Max Amount** | 700,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | INSTANT |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\nCurrencies accepted: **THB**\n\n## Payment flow\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/BAY%20Mobile%20Banking.mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A24Z&se=2026-04-23T07%3A35%3A24Z&sr=c&sp=r&sig=DAbqj9bG5hABiX6%2FjJgUSNLUTAUPJXZaI10aZt8SSD4%3D)\n\n1. On checkout page, end customer selects Krungsri Mobile Banking\n2. End customer will be redirected to Bank web portal\n3. Payment request push notification will be sent to end customer’s Krungsri Mobile Banking app\n4. End customers opens Krungsri Mobile Banking & click on the payment notification\n5. Bank app shows the payment details and end customer click confirm to complete the payment",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/krungsri-mobile-banking",
+      "title": "Krungsri Mobile Banking",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:28.999046Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 134,
+      "source_file": "krungsri-mobile-banking.md"
+    }
+  }
+]

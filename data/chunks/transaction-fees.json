@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 256,
+    "text": "# Transaction fees\n\nWe publish our standard fees for all operational regions on our website, ensuring you have clear and accessible information. You can find the relevant pricing details for your region through these links:\n\n- **Regional Pricing (Singapore Merchants):** <https://www.xendit.co/en/pricing/>\n- **Indonesia:** <https://www.xendit.co/en-id/pricing/>\n- **Malaysia:** <https://www.xendit.co/en-my/pricing/>\n- **Philippines:** <https://www.xendit.co/en-ph/pricing/>\n- **Thailand:** <https://www.xendit.co/en-th/pricing/>\n- **Vietnam:** <https://www.xendit.co/en-vn/pricing/>\n\n## Finding & auditing your personalized fees\n\nWhile our published schedules offer a general overview, we know your specific transaction rates might vary. That's why we provide the **Billing Fee Structure page** within your Xendit Dashboard. This page reflects the actual fees applicable to your transactions, including any negotiated rates.\n\nTo help you with financial transparency and audits, you can download your **Billing Reports**. You can use these reports to review and verify past fees, giving you a detailed history of your transaction costs.\n\n## **How we apply fees and when**\n\nWe apply fees under specific transaction conditions to ensure clarity and consistency. These conditions include:\n\n- **Settlement of payments**: Fees are charged when a payment transaction is settled.\n- **Creation of switcher payments**: Fees are incurred at the time switcher payments are created.\n- **Completion of payouts**: Fees are applied once payouts are completed\n\nIt's important to understand the timing of our fee application. For example, if a transaction is initiated on 30 Oct but settles on 2 Nov, we will apply the Xendit fee on 2 Nov. Consequently, this transaction will appear on your November invoice.\n\n## Direct and indirect deductions\n\nAt Xendit, there are two main types of fee deductions: **Direct Deduction** and **Indirect Deduction**. The key differences between these two methods are **when** the deduction occurs and **which balance** on your Xendit Dashboard the deduction is taken from.\n\nThe table below outlines the main differences between Direct and Indirect Deductions:\n\n| **Method** | **Description** | **Deduction Time** | **Settled From** |\n| --- | --- | --- | --- |\n| **Direct** | Fees and VAT charges are calculated and deducted **at the point of transaction settlement** (completion). | Per transaction, at settlement time | Available Balance |\n| **Indirect** | Fees and VAT charges are calculated **at the end of the month**, and the billing amount is settled after the billing statement has been issued. | No deductions. Fees are aggregated, after the billing month | [Billing Balance](/v1/docs/how-to-pay-bills) |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/transaction-fees",
+      "title": "Transaction fees",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:05:33.442911Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 256,
+      "source_file": "transaction-fees.md"
+    }
+  }
+]

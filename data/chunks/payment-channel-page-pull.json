@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 173,
+    "text": "# Touch ‘n Go\n\nTouch 'n Go (TnG) started as a physical public transportation card in the 90s. In 2017, they entered the fintech space with Touch 'n Go Digital, a mobile digital wallet app facilitating investments and loans. The wallet balance is not interchangeable with the public transportation card, but can be used to top up the physical card.\n\nThe origin of TnG as a public service and its ease of use as a digital wallet has resulted in a large user base. Many merchants have also been onboarded to run promotional activities, leading to an increase in its popularity.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | TOUCHNGO |\n| **Display Name** | Touch ‘n Go |\n| **Currency** | MYR |\n| **Country** | MY |\n| **Type** | EWALLET |\n| **Min Amount** | 1 |\n| **Max Amount** | 25,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL, QR CODE |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 1 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 180 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\nFor **desktop** payments, users are directed to a web browser displaying a QR code. They must scan this QR code using the Touch'n Go app on their device and confirm the payment within the app.\n\nOn **mobile**, users are sent directly to the Touch'n Go app to confirm their payment. After confirmation, they are rerouted back to the merchant's website.\n\nIf a mobile user doesn’t have the Touch'n Go app, they are directed to a mobile browser version where they can input their phone number and PIN to confirm the transaction, after which they are redirected back to the merchant’s website.\n\n\\\n\n[](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Touchngo%20-%20mobile%20(1).mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A31%3A45Z&se=2026-04-23T07%3A31%3A45Z&sr=c&sp=r&sig=4svUpDBM4BPwg%2FM8G3%2FUCRz16rTIxo%2BemQcCXPBCrO0%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/payment-channel-page-pull",
+      "title": "Touch ‘n Go",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:31:50.104687Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 173,
+      "source_file": "payment-channel-page-pull.md"
+    }
+  }
+]

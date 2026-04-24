@@ -1,0 +1,16 @@
+[
+  {
+    "chunk_index": 98,
+    "text": "# This page doesn't exist\n\n![This logo has 404page-1](https://cdn.document360.io/static/images/custompages/404page-1.svg)\n\n### This page doesn't exist\n\nOops! Page not found\n\n[Go to Documentation](/docs)  [Go to API Reference](/apidocs)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/error-scenarios",
+      "title": "This page doesn't exist",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:29:58.869861Z'",
+      "source": "https://docs.xendit.co",
+      "chunk_index": 98,
+      "source_file": "error-scenarios.md"
+    }
+  }
+]

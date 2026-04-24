@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 83,
+    "text": "# CVM\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/CVM Pawnshop Home.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A22Z&se=2026-04-23T06%3A45%3A22Z&sr=c&sp=r&sig=83GEepsqnbSz%2FSz6eRcdyYHI4y8I2IYEk%2F6PU0nERD4%3D \"image(23).png\")\n\nCVM Pawnshop, with its extensive network of branches across the Philippines, enables businesses to accept over-the-counter payments from customers who prefer offline transactions. Customers can settle online purchases by providing a transaction reference number at any CVM branch, making it a convenient option for those without bank accounts or who favor cash payments.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| Channel Code | `CVM` |\n| Currency | PHP |\n| Minimum Amount | 50.00 |\n| Maximum Amount | 30,000.00 |\n| User Approval Flow | PRESENT TO CUSTOMER |\n| Reusable Payment Code | ✅ |\n| Custom Payment Code | ✅ |\n| Display Merchant Name | XENDIT |\n| Display User Name | ❌ |\n| Set Expiry | ✅ |\n| Settlement Time (hours) | T+2 BUSINESS DAYS |\n| Refund | ❌ |\n| Partial Refund | ❌ |\n| Multiple Partial Refund | ❌ |\n| Refund Validity (days) | N/A |\n| Compatible integration | Payment API |\n\n## How to pay\n\n1. Visit your nearest CVM pawnshop branch before payment code expires.\n2. Tell the cashier/staff that you will be making a Dragonpay Payment\n3. You will be asked to write on a piece of paper these following details:\n\n   1. Your Name\n   2. Your Mobile Number\n   3. Your Birthday\n   4. Payment Code given by Merchant\n   5. Amount\n   6. Purpose of Payment\n4. Give the filled out paper to the cashier/staff with your payment (cash only)\n5. You will receive a receipt as proof of payment\\\n   ![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2025-01-05 at 09.47.30.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A22Z&se=2026-04-23T06%3A45%3A22Z&sr=c&sp=r&sig=83GEepsqnbSz%2FSz6eRcdyYHI4y8I2IYEk%2F6PU0nERD4%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/cvm",
+      "title": "CVM",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:34:26.512546Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 83,
+      "source_file": "cvm.md"
+    }
+  }
+]

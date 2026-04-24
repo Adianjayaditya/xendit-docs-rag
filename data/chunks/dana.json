@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 84,
+    "text": "# DANA\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(51).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A11Z&se=2026-04-23T06%3A41%3A11Z&sr=c&sp=r&sig=69O3ZODBfyLYiUpQBBh9jK3M8NY3YEEtozAQGIvf8HQ%3D \"image(51).png\")\n\nDANA is a versatile digital payment platform that has become one of Indonesia's most popular e-wallets. DANA is a homegrown fintech company backed by Ant Group and has established strong partnerships, serving millions of Indonesian users with its comprehensive digital financial services.\n\nWhen customers choose DANA at checkout, they can complete the payment either by logging into their DANA account directly on your checkout page, or by opening their DANA app and authorizing the payment through the app's interface. The payment is confirmed instantly once the customer verifies the transaction using their DANA PIN or biometric authentication.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | DANA |\n| **Display Name** | DANA |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | EWALLET |\n| **Min Amount** | 100 |\n| **Max Amount** | 20,000,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 24 |\n| **Payment Token Validity (years)** | 10 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 30 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(50).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A11Z&se=2026-04-23T06%3A41%3A11Z&sr=c&sp=r&sig=69O3ZODBfyLYiUpQBBh9jK3M8NY3YEEtozAQGIvf8HQ%3D \"image(50).png\")",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/dana",
+      "title": "DANA",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:28:15.965729Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 84,
+      "source_file": "dana.md"
+    }
+  }
+]

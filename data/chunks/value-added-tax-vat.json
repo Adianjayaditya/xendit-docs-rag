@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 269,
+    "text": "# Value Added Tax (VAT)\n\nVAT (Value-Added Tax) is a consumption tax applied to goods and services at each stage of production or distribution. The VAT rate varies depending on the country of service, and for Xendit services, fees are generally **VAT-exclusive**, meaning VAT will be added to the fees as applicable.\n\n## VAT applicability by country\n\nXendit applies VAT to all services in the following countries:\n\n1. **Indonesia**\n\n   - **VAT Rate**: 12% (The subtotal is multiplied by 11/12, bringing effective VAT rate to 11%)\n2. **Malaysia**\n\n   - **VAT Equivalent (SST)**: 0%\n3. **Thailand**\n\n   - **VAT Rate**: 7%\n4. **Vietnam**\n\n   - **VAT Rate**: 10%\n5. **Philippines**\n\n   - **VAT Rate**: 12%\n6. **Singapore**\n\n   - **VAT equivalent** **(GST)**: 0%\n\n### VAT calculation\n\nVAT is calculated on the **transaction fee** using the applicable VAT rate for the country where the service is provided.\n\nIn case of [Direct Deduction](/v1/docs/transaction-fees), this amount will be directly deducted from the transaction at settlement.\n\n#### Example calculation (Vietnam)\n\n- **Fee Rate**: VND 2,500 per transaction\n- **VAT (10%)**\n- **Total Fee** and **Total Fee VAT** = **2500** + **2500 × 10**% = VND 2,750\n\n#### Example calculation (Indonesia)\n\n- **Fee Rate**: IDR 5,000 per transaction\n- **VAT (12%)**\n- **Tax base = 11/12 × 5000**\n- **Total Fee** and **Total Fee VAT** = **5000** + **11/12 × 5000 × 12**% = IDR 5,550\n\n## VAT Calculator\n\n###",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/value-added-tax-vat",
+      "title": "Value Added Tax (VAT)",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:09:34.151868Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 269,
+      "source_file": "value-added-tax-vat.md"
+    }
+  }
+]

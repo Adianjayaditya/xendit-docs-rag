@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 264,
+    "text": "# Understanding payment fraud\n\nPayment fraud occurs when someone makes unauthorized or deceptive transactions using payment information that doesn't belong to them. These fraudulent activities can take several forms, each with its own characteristics and risks.\n\nHere are the main types of payment fraud you need to know about:\n\n**1. Stolen card fraud**\n\nThis happens when unauthorized individuals obtain and use credit card information for purchases. This remains one of the most common types of payment fraud, especially in digital transactions.\n\n**2. Identity theft**\n\nA more comprehensive form of fraud where someone uses another person's complete identity, including personal information, to make unauthorized purchases or open new payment accounts.\n\n**3. Account takeover**\n\nFraudsters gain unauthorized access to legitimate customer accounts and make purchases using stored payment information or accumulated rewards points. This type of fraud has become increasingly common as more businesses store payment information online.\n\n**4. Friendly fraud**\n\nThis occurs when legitimate customers make purchases but later dispute them falsely, claiming they never received the goods or didn't authorize the purchase. This type is particularly challenging because it starts as a legitimate transaction.\n\n## How payment fraud impacts your business\n\nPayment fraud affects your business in several significant ways:\n\n1. **Financial impact**\n\nWhen fraud occurs, your business faces immediate financial consequences. You'll likely lose the goods or services you've provided, and you'll also have to pay chargeback fees that can reach up to USD 100 per dispute. The cumulative effect of these losses can significantly impact your bottom line.\n\nBeyond the obvious financial losses, you'll also need to invest in fraud prevention tools and potentially hire staff to manage fraud-related issues. These operational costs can add up quickly, especially for growing businesses.\n\n2. **Reputation impact**\n\nYour business reputation can suffer when fraud occurs. Customers whose information has been compromised may leave negative reviews, and potential customers might hesitate to shop with you if they hear about fraud incidents. In today's connected world, reputation damage can spread quickly and be difficult to repair.\n\n3. **Operational challenges**\n\nDealing with fraud creates significant operational burdens. Your team will need to spend time investigating suspicious transactions, managing disputes, and implementing prevention measures. This diverts resources from core business activities and customer service.\n\n4. **Growth restrictions**\n\nPerhaps most concerning for growing businesses, excessive fraud can lead to processing restrictions from payment networks. If your fraud rates exceed certain thresholds, you may face:\n\n- Mandatory participation in costly fraud monitoring programs\n- Increased per-transaction fees that eat into your margins\n- Restrictions on the types of payments you can accept\n- Potential account termination in severe cases",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/understanding-payment-fraud",
+      "title": "Understanding payment fraud",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:23:27.109920Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 264,
+      "source_file": "understanding-payment-fraud.md"
+    }
+  }
+]

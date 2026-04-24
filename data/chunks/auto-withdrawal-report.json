@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 20,
+    "text": "# Auto-Withdrawal report\n\nThe **Auto-Withdrawal Report** provides a detailed summary of transactions withdrawn from your account, including both payments and disbursements.\n\nFor users with Auto-Withdrawal enabled, the report is optimized to help reconcile payouts received in your bank account with the batches of payments and other transactions they relate to. Customers with an active Auto-Withdrawal can download the report, provided the Auto-Withdrawal was executed successfully.\n\n## Download Transactions Reports\n\n- **On-Demand export**: Download the Transactions Report directly from your dashboard [Auto-Withdrawal Report](https://dashboard.xendit.co/reporting/auto-withdrawal) page. This page is available only when auto-withdrawals are active.\n- **Scheduled Delivery**: [Schedule automated report](/v1/docs/scheduling-reports) deliveries to your email or SFTP servers, ensuring you receive up-to-date information without manual effort. The report is only available after successful withdrawals.\n\n**Note**:\n\n- The Auto-Withdrawal Report for the first Auto-Withdrawal will not be available due to the potentially large date range of past transactions\n- Auto-withdrawal report is not compatible with balance maturity period\n\n## Available columns\n\n| Field name | Description |\n| --- | --- |\n| Withdrawal date | Withdrawal date formatted as YYYY-MM-DD |\n| Status | Status of transaction withdrawal |\n| Other fields | Identical to the default fields in [Balance report](/v1/docs/balance-report) |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/auto-withdrawal-report",
+      "title": "Auto-Withdrawal report",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:03:59.966501Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 20,
+      "source_file": "auto-withdrawal-report.md"
+    }
+  }
+]

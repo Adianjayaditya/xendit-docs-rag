@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 93,
+    "text": "# EasyStore\n\nEasyStore is a powerful e-commerce platform designed to help businesses easily build and manage their online stores. It offers customizable themes, marketing tools, order management, and supports various payment methods — making it a great choice for sellers across Southeast Asia.\n\nFollow this guide to start integrating **Xendit** with your EasyStore shop.\n\n### **Requirements**\n\nBefore integrating Xendit with EasyStore, make sure you:\n\n- Have an active **EasyStore** account (any plan is supported).\n- Are registered with **Xendit**, and have access to your **API key** and **Business ID**.\n- Have removed any IP whitelist settings from your Xendit Dashboard (if previously set).\n\n### **Installation**\n\nFollow these steps to start accepting payments on your EasyStore shop using Xendit:\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screen%20Recording%202025-08-07%20at%2015.40.45.mov?sv=2022-11-02&spr=https&st=2026-04-23T06%3A16%3A10Z&se=2026-04-23T07%3A16%3A10Z&sr=c&sp=r&sig=7D3h3iW8GXZC9wAAc8LM7iYoofiDMVPuvtiyYV6QATU%3D)\n\n1. Log in to your **Xendit Dashboard**, and go to the **Integrations** tab.\n2. Search for **EasyStore** under available plugins and click **Install**.\n3. You’ll be redirected to EasyStore’s app marketplace to setup your Xendit account in **EasyStore Admin Panel > Settings > Payments**.\n4. Select **Xendit** and configure your preferred payment channels (e.g., bank transfer, eWallets, cards).\n5. Insert your `Xendit’s Business ID` as `Merchant ID`, and `Xendit’s Public API Key` as  `Secret Key` in Easystore’s Xendit setup page\n6. Click **Save** — you’re now ready to accept payments via Xendit.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/easystore",
+      "title": "EasyStore",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:16:15.443830Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 93,
+      "source_file": "easystore.md"
+    }
+  }
+]

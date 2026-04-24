@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 133,
+    "text": "# Krungsri Direct Debit\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel Code** | KRUNGSRI\\_DIRECT\\_DEBIT |\n| **Display Name** | Krungsri Direct Debit |\n| **Currency** | THB |\n| **Country** | TH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 20 |\n| **Max Amount** | 700,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | INSTANT |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | - |\n| **Fund Flow** | AGGREGATOR |\n\n\\*Bank will validate the login credential to the mobile phone number & ID No. sent during Payment Request\n\n## Account Linking flow\n\nEnd customer select the bank to link on checkout page and process authorization (Account Linking)\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Payment session - DD linking.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A22Z&se=2026-04-23T07%3A08%3A22Z&sr=c&sp=r&sig=GjzbD2zKKHG1bVVJKialj2%2BhGkUzvFVopUL31oyGeBg%3D)\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/BAY DD.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A22Z&se=2026-04-23T07%3A08%3A22Z&sr=c&sp=r&sig=GjzbD2zKKHG1bVVJKialj2%2BhGkUzvFVopUL31oyGeBg%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/krungsri-direct-debit",
+      "title": "Krungsri Direct Debit",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:32:26.762456Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 133,
+      "source_file": "krungsri-direct-debit.md"
+    }
+  }
+]

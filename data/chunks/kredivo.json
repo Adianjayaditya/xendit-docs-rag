@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 132,
+    "text": "# Kredivo\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/kredivo-logo.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A27%3A18Z&se=2026-04-23T07%3A03%3A18Z&sr=c&sp=r&sig=p6l94xvkx1MswuDSHJn%2FOXiGhW9cSFMQpoAINZVJaL0%3D)\n\nKredivo is a leading digital credit platform in Indonesia, offering instant credit for e-commerce, offline purchases, and personal loans through real-time decisioning. Customers can choose Kredivo as a PayLater payment option.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | KREDIVO |\n| **Display Name** | Kredivo |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | PAYLATER |\n| **Min Amount** | 1,000.00 |\n| **Max Amount** | 30,000,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 24 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+4 CALENDAR DAYS\\* |\n| **Installments** | ✓ |\n| **Refund** | ✓ |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | 14 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n1. On the checkout page, select **PayLater > Kredivo**\n2. Fill in customer details and continue\n3. Choose installment plan on the Kredivo payment page\n4. Log in to Kredivo with your phone number and PIN, or create a new account\n5. Enter the OTP sent to your phone and click **Bayar** (Pay)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/kredivo",
+      "title": "Kredivo",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:27:22.637861Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 132,
+      "source_file": "kredivo.md"
+    }
+  }
+]

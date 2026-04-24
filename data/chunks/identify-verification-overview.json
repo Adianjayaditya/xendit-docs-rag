@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 117,
+    "text": "# Overview\n\nOur Identity Verification products can be used to verify your customers before you onboard them or process their transactions. With our verification API products you can:\n\n- Verify your customer’s identity\n- Verify your customer’s bank accounts\n- Check whether your customer is in a Sanctions watchlist\n\n## Verification products\n\n| Product | Supported countries | Function | Common use cases |\n| --- | --- | --- | --- |\n| Bank Validator | Indonesia, Vietnam | To verify whether:   - A bank account number is valid - The account holder name matches the given name | Remittance businesses often need to verify their customers’ bank or E-Wallet accounts before sending funds. |\n| E-Wallet Validator | Indonesia | Checks whether an E-Wallet account exists for the given phone number |\n| Individual Authentication | Indonesia | Verifies and matches an individual’s ID number, full name and date of birth | Various businesses need to ensure they are onboarding legitimate customers and prevent stolen identities. |\n| ID Card Verification | Philippines | Displays a pop-up for customers to complete a selfie and an ID card portrait |\n| OCR | Indonesia | Extracts text data from an ID card photo (KTP, NPWP) | Eliminates data entry for customers that need to present their IDs. |\n| CFT Screening | Indonesia | Matches a given name against one of Iluma’s supported sanctions watchlists | AML (Anti-money laundering) measures when onboarding customers. |\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/iluma-logo.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A07%3A00Z&se=2026-04-23T06%3A18%3A00Z&sr=c&sp=r&sig=tHamMV8cJ%2BDqxK9i%2Fp2ebyjTd9Iba%2B4sehQRVQ5Tbhg%3D)\n\nCurrently these API products are hosted under our Iluma brand. Refer to [Iluma’s API Reference](https://docs.iluma.ai) for a full list of endpoints.\n\n## How to integrate with Iluma\n\n1. Send us a message to tell us you need an Iluma account. You will need to give us the following details\n\n   1. Basic business information (Business and PIC names, email, phone number, address)\n   2. Which products you would like to use\n2. We will process the request and provide you the account details within 1-2 business days\n3. Use the given `token` to [get your API keys](https://docs.iluma.ai/#get-api-key)\n\n   1. This will return both a `live` and `development` key for testing purposes\n4. Complete and e-sign the agreement shared with you\n5. Your account will be updated to Live status, and you can start verifying with real data\n\nYou can also follow the [Iluma integration guide here](https://docs.iluma.ai/#integration-guide)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/identify-verification-overview",
+      "title": "Overview",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:07:03.537709Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 117,
+      "source_file": "identify-verification-overview.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 44,
+    "text": "# BPI Direct Debit\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/BPI Logo Red 2021(1).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A18Z&se=2026-04-23T06%3A51%3A18Z&sr=c&sp=r&sig=7yNcW3pN5KxdLSN7wYZbEzS%2Fl3tmEgwUCSSbBSbm5UU%3D)\n\nThe Bank of the Philippine Islands (BPI) is one of the largest and most trusted banks in the Philippines, with a strong presence in both traditional and digital banking services. BPI Online Banking, its digital platform, is widely used for secure and convenient transactions, including online payments, bills payment, and fund transfers. With millions of active users, BPI Online Banking is a preferred payment method for Filipinos who value ease of use, security, and reliability.\n\nBPI's popularity stems from its extensive customer base and seamless integration with many e-commerce platforms, making it a key payment method for businesses targeting the Philippine market. Merchants often adopt BPI Online Banking as an option to cater to customers who prefer direct bank payments over credit cards or e-wallets.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | BPI\\_DIRECT\\_DEBIT |\n| **Display Name** | BPI Direct Debit |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 0.01 |\n| **Max Amount** | 500,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | 0.25 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+1 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | 30 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR, SWITCHER |\n\n## Payment flow\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2024-11-28 at 2.57.07 PM(1).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A18Z&se=2026-04-23T06%3A51%3A18Z&sr=c&sp=r&sig=7yNcW3pN5KxdLSN7wYZbEzS%2Fl3tmEgwUCSSbBSbm5UU%3D)\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/BPI%20Direct%20Debit.MP4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A18Z&se=2026-04-23T07%3A32%3A18Z&sr=c&sp=r&sig=yhe3DgikEJKJljQ6W2%2F0Gxou7BhwlWmoFPb%2Bj%2FUmVio%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/bpi-direct-debit",
+      "title": "BPI Direct Debit",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:32:22.097864Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 44,
+      "source_file": "bpi-direct-debit.md"
+    }
+  }
+]

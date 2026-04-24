@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 129,
+    "text": "# JeniusPay\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(56).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A30Z&se=2026-04-23T06%3A39%3A30Z&sr=c&sp=r&sig=sapKmW36hNkvUKyeDTA6c%2F%2FcEHexQNdBXI8wqWqEHEo%3D \"image(56).png\")\n\nJeniusPay is an innovative digital payment solution from one of Indonesia's leading digital banking platforms. It’s developed by Bank BTPN as part of their Jenius digital banking ecosystem, known for serving tech-savvy urban professionals with modern banking and payment solutions.\n\nWhen customers select JeniusPay at checkout, they can complete the payment either by logging into their Jenius account directly on your checkout page, or by opening their Jenius app and authorizing the payment through the app's interface. The payment is confirmed instantly once the customer verifies the transaction using their Jenius PIN or biometric authentication.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel code** | `JENIUSPAY` |\n| **Currency** | IDR |\n| **Minimum amount** | 1,000 |\n| **Maximum amount** | 20,000,000 |\n| **User approval flow** | REDIRECT |\n| **Save** | ❌ |\n| **Recurring** | ❌ |\n| **Auth & capture** | ❌ |\n| **Partial capture** | ❌ |\n| **Multiple partial capture** | ❌ |\n| **Payment request expiry** | ❌ |\n| **Payment token validity** | ❌ |\n| **Settlement time** | T+2 working days |\n| **Refund** | ✅ |\n| **Partial refund** | ✅ |\n| **Multiple partial refund** | ❌ |\n| **Refund validity** | 0 days |\n| **Compatible integration** | Payment API, Payment Links |\n\n## Payment flow\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(59).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A30Z&se=2026-04-23T06%3A39%3A30Z&sr=c&sp=r&sig=sapKmW36hNkvUKyeDTA6c%2F%2FcEHexQNdBXI8wqWqEHEo%3D \"image(59).png\")",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/jeniuspay",
+      "title": "JeniusPay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:28:34.419252Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 129,
+      "source_file": "jeniuspay.md"
+    }
+  }
+]

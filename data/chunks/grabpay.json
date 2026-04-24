@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 105,
+    "text": "# GrabPay\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/images.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A32Z&se=2026-04-23T07%3A08%3A32Z&sr=c&sp=r&sig=f0zcHb4BvRiux43fQLElIIByMJ4RYcnvLSWnoAE9rno%3D)\n\nGrabPay is the digital wallet service of Grab, Southeast Asia's leading super app. In the Philippines, GrabPay has become a trusted and widely used payment method, allowing users to pay for Grab services (like transport, food delivery, and parcels) as well as online and in-store transactions.\n\nGrabPay is known for its seamless integration within the Grab app, enabling a one-stop solution for both payments and everyday services. Beyond Grab’s ecosystem, users can pay bills, shop online, send money, and even earn GrabRewards points. Its security, versatility, and frequent promotions make it a preferred choice for tech-savvy Filipinos.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | GRABPAY |\n| **Display Name** | GrabPay |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | EWALLET |\n| **Min Amount** | 1 |\n| **Max Amount** | 100,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | 10 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 365 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Additional features\n\n<something like paylater>\n\n## Payment flow\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/GrabPay.MOV?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A32Z&se=2026-04-23T07%3A32%3A32Z&sr=c&sp=r&sig=ZnRBDN0g9mflpom3YjNaqm1T3rM%2BGfAWRXaWUmZbC3s%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/grabpay",
+      "title": "GrabPay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:32:35.899172Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 105,
+      "source_file": "grabpay.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 268,
+    "text": "# USSC (Universal Storefront Services Corp.)\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/USSC Logo.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A12Z&se=2026-04-23T07%3A11%3A12Z&sr=c&sp=r&sig=D0SKEhrIISdkWnIgE8hMbBz0FzB9mRIZLZ0Wxxt6tic%3D \"image(23).png\")\n\nUSSC (Universal Storefront Services Corporation) provides a convenient way for customers to pay for online purchases offline by generating a unique reference number that can be presented at any of their numerous branches. This allows businesses to accept cash payments from customers who may not have access to online banking or prefer traditional payment methods.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | USSC |\n| **Display Name** | USSC (Universal Storefront Services Corp.) |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | OVER THE COUNTER |\n| **Min Amount** | 50 |\n| **Max Amount** | 20,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | ✓ |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | ✓ |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | - |\n| **Fund Flow** | AGGREGATOR |\n\n## How to pay\n\n1. Visit your nearest branch USSC branch before payment code expires. You may refer to this [branch locator](https://ussc.com.ph/branches/).\n2. Tell the cashier/staff that you will be making a payment for Dragonpay\n3. You will be given a `Bayad Form` to fill-up\n\n   Bayad Form\n\n   Please fill out the following information:\n\n   1. Biller: Dragonpay\n   2. Account/Ref No: Payment code given by merchant\n   3. Account Name: Your Name\n   4. Bill Amount: Amount due of your payment code\n\n   ![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2025-01-05 at 17.12.14.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A12Z&se=2026-04-23T07%3A11%3A12Z&sr=c&sp=r&sig=D0SKEhrIISdkWnIgE8hMbBz0FzB9mRIZLZ0Wxxt6tic%3D)\n4. Give the filled out slip to the cashier/staff with your payment(cash only)\n5. You will receive a receipt as proof of payment\\\n   ![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2025-01-05 at 10.04.22.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A12Z&se=2026-04-23T07%3A11%3A12Z&sr=c&sp=r&sig=D0SKEhrIISdkWnIgE8hMbBz0FzB9mRIZLZ0Wxxt6tic%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/ussc",
+      "title": "USSC (Universal Storefront Services Corp.)",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:15.802439Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 268,
+      "source_file": "ussc.md"
+    }
+  }
+]

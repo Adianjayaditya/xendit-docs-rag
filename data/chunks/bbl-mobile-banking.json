@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 35,
+    "text": "# Bangkok Bank Mobile Banking\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/BBA.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A33%3A48Z&se=2026-04-23T07%3A09%3A48Z&sr=c&sp=r&sig=z%2FoaE2wTV18ZaK3Y92Wl5FEckB%2BjwpXBBDpkhVRS69Q%3D)\n\nBangkok Bank’s mobile banking system is known for its robust features and reliability. It offers seamless integration for e-commerce payments, making it a top choice in Thailand.\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel Code** | BBL\\_MOBILE\\_BANKING |\n| **Display Name** | Bangkok Bank Mobile Banking |\n| **Currency** | THB |\n| **Country** | TH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 20 |\n| **Max Amount** | 700,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | INSTANT |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n1. On checkout page, end customer selects BBL Mobile Banking\n2. Redirect end customer to BBL Mobile Banking app\n3. End customers confirm the amount\n4. End customer click confirm the payment",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/bbl-mobile-banking",
+      "title": "Bangkok Bank Mobile Banking",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:33:51.863416Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 35,
+      "source_file": "bbl-mobile-banking.md"
+    }
+  }
+]

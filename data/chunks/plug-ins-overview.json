@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 206,
+    "text": "# Overview\n\nWith third-party platforms like Shopify, WooCommerce, and others, you can easily create an online store without needing to code. This allows you to focus on what really matters: your customers, products, and services.\n\nXendit provides ready-made plugins for these platforms, enabling you to effortlessly accept payments online. With fast and automated payment processing, you can reliably manage payments from your customers without any hassle.\n\n## Available Plug-ins\n\n| **Plug-ins** | **Availability** |\n| --- | --- |\n| WooCommerce | Indonesia 🇮🇩, Malaysia 🇲🇾, Philippines 🇵🇭, Thailand 🇹🇭, Vietnam 🇻🇳 |\n| Shopify | Indonesia 🇮🇩, Malaysia 🇲🇾, Philippines 🇵🇭, Thailand 🇹🇭, Vietnam 🇻🇳 |\n| Wix | Indonesia 🇮🇩,  Philippines 🇵🇭 |\n| Magento | Indonesia 🇮🇩, Malaysia 🇲🇾, Philippines 🇵🇭, Thailand 🇹🇭, Vietnam 🇻🇳 |\n| Cloudbeds | Indonesia 🇮🇩, Malaysia 🇲🇾, Philippines 🇵🇭, Thailand 🇹🇭, Vietnam 🇻🇳 |\n| Easystore | Indonesia 🇮🇩, Malaysia 🇲🇾, Philippines 🇵🇭, Thailand 🇹🇭, Vietnam 🇻🇳 |\n\n## Set up Plug-ins\n\nIf you're developing your website using plugins and want to accept payments via Xendit, your integration with the plugins must meet our requirements. Follow these steps to get started:\n\n1. **Create a Xendit account**\\\n   Sign up for a Xendit account to begin your integration. See the guidelines [here](/docs/create-account#how-to-sign-up).\n2. **Create Xendit API key**\n\n   Create each environment’s Xendit api key to be used for the plug-in installation. See the guidelines [here](/docs/api-keys#how-to-generate-api-keys). For plug-in usage, the API key only needs to have **money-in access**.\n3. **Understand the payment lifecycle**\\\n   Review the [payment lifecycle](/docs/payment-links-api-overview#payment-link-lifecycle) to understand how payments flow through the system.\n4. **Follow plugin requirements & installation guidelines**\\\n   Refer to the individual documentation for each plugin you want to implement, where you'll find specific requirements and installation instructions.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/plug-ins-overview",
+      "title": "Overview",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:05:04.152947Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 206,
+      "source_file": "plug-ins-overview.md"
+    }
+  }
+]

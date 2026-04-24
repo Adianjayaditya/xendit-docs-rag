@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 284,
+    "text": "# Overview\n\nWith your Master account, you can submit your merchant’s information for verification via API. Doing so enables you to control the collection of data on your Platform’s interface before passing the data to Xendit. You can view a list of all the APIs in our [API Reference](https://docs.xendit.co/apidocs/create-account).\n\n> Region & Account Type Support\n>\n> Currently this API only supports Owned sub-accounts for Master accounts operating in the Philippines, Thailand and Indonesia. Global accounts are not supported. Managed sub-accounts must have their verification data submitted using the Dashboard.\n>\n> It is advised to use [the latest Account Verification feature](/docs/overview-16) in the article above except for PH or TH merchants that need the payment capabilities from this Legacy API.\n\nAfter the sub-account is created, you can onboard your merchant by creating an `Account Holder`, which is an object that represents the legal entity of your merchant and contains legal information and documents.\n\nAPI Verification and the payment channel capabilities you can activate for your sub-accounts are currently supported for the countries below.\n\n|  | **Create and Link Account Holder** | **Payment Channel Capabilities** |\n| --- | --- | --- |\n| Philippines | ✅ | Credit Cards, GCash |\n| Thailand | ✅ | Credit Cards |\n| Indonesia | ✅ | - |\n\n### Flow and implementation\n\nAfter creating an `OWNED` sub-account, follow the steps below to get your sub-account verified and get additional payment channels activated.\n\n| Steps | Document | API Reference |\n| --- | --- | --- |\n| 1. Upload Required Files | [Guide](/docs/create-verification-requests) | [Link](https://docs.xendit.co/apidocs/upload-file) |\n| 2. Create an Account Holder | [Guide](/docs/create-verification-requests) | [Link](https://docs.xendit.co/apidocs/create-account-holder) |\n| 3. Link the Account Holder to your sub-account | [Guide](/docs/create-verification-requests) | [Link](https://docs.xendit.co/apidocs/update-account-holder) |\n| 4. Request Capabilities | [Guide](/docs/request-channel-capabilities) | [Link](https://docs.xendit.co/apidocs/update-account-holder) |\n| 5. Handle Webhooks | [Guide](/docs/account-holder-webhooks) | [Link](https://docs.xendit.co/apidocs/update-account-holder) |\n| 6. Update Account Holder (Resubmission) | [Guide](/docs/updating-verification-information) | [Link](https://docs.xendit.co/apidocs/update-account-holder) |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/xenplatform-account-holder-api",
+      "title": "Overview",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:18:05.416583Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 284,
+      "source_file": "xenplatform-account-holder-api.md"
+    }
+  }
+]

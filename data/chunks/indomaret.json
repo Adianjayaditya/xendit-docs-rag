@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 119,
+    "text": "# Indomaret\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(39).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A25Z&se=2026-04-23T07%3A04%3A25Z&sr=c&sp=r&sig=HqWqPbAy5zICmcg%2Bw18%2BP9qb5qAmeitgIqRjMOhqOI4%3D \"image(39).png\")\n\nIndomaret is Indonesia's largest retail chain with more than 19,000 convenience stores nationwide, providing extensive coverage for cash-based transactions even in remote areas.\n\nWhen customers choose Indomaret as their payment method at checkout, they receive a unique payment code. They can then visit any Indomaret store within the payment time limit, show the payment code to the cashier, and complete the transaction with cash. The payment is confirmed instantly once the customer completes the payment at the store counter.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | INDOMARET |\n| **Display Name** | Indomaret |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | OVER THE COUNTER |\n| **Min Amount** | 10,000.00 |\n| **Max Amount** | 5,000,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | ✓ |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | ✓ |\n| **Set Expiry** | ✓ |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+5 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n1. **Find Nearest Branch**\n\n   - Visit the nearest INDOMARET branch before the time on the payment code/barcode runs out\n   - Inform the Cashier to make payment to your Brand Name. (If your Brand name is not found, use the name Xendit)\n2. **Payment Details**\n\n   - Inform the payment code to the Cashier. If you have a barcode, you can let the cashier scan the barcode.\n   - Confirm that the amount shown is the same with the one that the Cashier had, then proceed to make payment.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/indomaret",
+      "title": "Indomaret",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:28:29.459025Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 119,
+      "source_file": "indomaret.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 209,
+    "text": "# PromptPay\n\nQR code payments in Thailand uses QR PromptPay, a Thailand QR code standard developed by BOT (Bank of Thailand).\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel Code** | PROMPTPAY |\n| **Display Name** | PromptPay |\n| **Currency** | THB |\n| **Country** | TH |\n| **Type** | QR CODE |\n| **Min Amount** | 1.00 |\n| **Max Amount** | 700,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | INSTANT |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\nCurrencies accepted: **THB**\n\n## Payment flow\n\n![](https://archive.docs.xendit.co/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdpvzoteik%2Fimage%2Fupload%2Fc_fill%2Ch_826%2Cw_2252%2FScreenshot_2024-04-17_at_14.22.49_iygfzk%3F_a%3DBATCr5fi0&w=3840&q=75)\n\n\\\n\n1. On the checkout page, select QR PromptPay as your payment method\n2. Screenshot the QR code that appears on your screen\n3. Open your mobile banking or e-wallet app, then select from Gallery\n4. Choose the screenshot that you’ve made containing the QR Code\n5. Make sure the payment amount and merchant is correct\n6. Confirm payment",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/qr-promptpay",
+      "title": "PromptPay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:33:00.228470Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 209,
+      "source_file": "qr-promptpay.md"
+    }
+  }
+]

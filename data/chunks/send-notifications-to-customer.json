@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 225,
+    "text": "# Send notifications to customer\n\nPayment Links can automatically send notifications to your customers and your business email to help track payment confirmations.\n\n## Notification channels and events\n\nWe provide notifications via email and WhatsApp, ensuring everyone stays up-to-date on crucial payment events.\n\n#### **For your customers**\n\nXendit will automatically send notifications to your customers for the following events if you enable this feature:\n\n- **Payment Link created**\n\n  Your customer will receive a notification informing them that a payment link has been sent to them for completing the payment.\n- **Payment reminders**\n\n  Your customer will receive a notification if they haven’t completed the payment within the specified time frame. You can also configure when you want the reminders to be sent.\n- **Successful payment**\n\n  Your customer will receive a confirmation notification for a successful payment.\n\n#### **For you**\n\nXendit will notify you for the following events. You also can setup the email address that you want the notification to be sent to:\n\n- **Successful Payment**\n\n  You will be notified when a payment has been successfully completed by the customer.\n- **Payment Link Expired**\n\n  You will be notified if a payment link has expired without being completed.\n\n## How to set up notifications\n\nYou can configure notification preferences in the **Xendit Dashboard > Settings > Checkout > Notifications**.\n\nWe also provide pre-designed **notification templates** that you can select and customize based on your business needs.\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(94).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A23%3A07Z&se=2026-04-23T06%3A34%3A07Z&sr=c&sp=r&sig=hAVHqZmZ66mn29LTCc6khvuLQZiRaxfbHx%2BgjPYKcbE%3D \"image(94).png\")\n\nOnce set, these preferences will apply to all Payment Links *unless specific settings are defined during their creation.*",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/send-notifications-to-customer",
+      "title": "Send notifications to customer",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:23:11.151489Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 225,
+      "source_file": "send-notifications-to-customer.md"
+    }
+  }
+]

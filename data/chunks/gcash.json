@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 100,
+    "text": "# GCash\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/GCash_logo.svg.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A40Z&se=2026-04-23T07%3A10%3A40Z&sr=c&sp=r&sig=u8PE21KCdjcNnyU32uN0oPdSwpWzL2OtlrWsApvuM%2BI%3D)\n\nGCash is the Philippines' leading mobile wallet, offering a wide range of financial services including online payments, money transfers, bill payments, and more. Launched by Mynt (a partnership among Globe Telecom, Ayala Corporation, and Ant Group), GCash has become a household name with over 80 million registered users as of 2024.\n\nThe mobile wallet’s popularity stems from its ease of use, secure transactions, and widespread acceptance among online merchants, physical stores, and government services. Businesses offering GCash as a payment method tap into a vast user base that prefers the convenience of digital payments over cash or credit cards.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | GCASH |\n| **Display Name** | GCash |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | EWALLET |\n| **Min Amount** | 1 |\n| **Max Amount** | 100,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | 1 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 180 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/GCash.MOV?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A40Z&se=2026-04-23T07%3A34%3A40Z&sr=c&sp=r&sig=ELcewRHj%2Fut48W233vSE7eA5W90w2BGfKAFttRdk7zE%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/gcash",
+      "title": "GCash",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:34:43.856010Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 100,
+      "source_file": "gcash.md"
+    }
+  }
+]

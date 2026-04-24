@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 261,
+    "text": "# UnionBank Direct Debit\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Unionbank-logo.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A04Z&se=2026-04-23T07%3A11%3A04Z&sr=c&sp=r&sig=uM7bF8vNOJTXBUBEGyUoeAEZFk7D2kXkelmbuf%2BHKC8%3D)\n\nUnionBank of the Philippines is one of the country’s leading digital banks, offering a comprehensive and user-friendly online banking platform. With UnionBank Online Banking, customers can conveniently manage their accounts, perform transactions, and access various banking services anytime, anywhere. The platform is accessible via web browsers and a mobile app, ensuring a seamless banking experience for individuals and businesses alike.\n\nUnionBank is at the forefront of digital transformation in the Philippines, making it a popular choice for tech-savvy users seeking efficient and secure banking solutions.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | UBP\\_DIRECT\\_DEBIT |\n| **Display Name** | UnionBank Direct Debit |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 0.01 |\n| **Max Amount** |  |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | 1 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+1 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | 30 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR, SWITCHER |\n\n##",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/ubp-direct-debit",
+      "title": "UnionBank Direct Debit",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:08.084626Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 261,
+      "source_file": "ubp-direct-debit.md"
+    }
+  }
+]

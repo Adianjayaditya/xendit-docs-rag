@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 136,
+    "text": "# Krungthai Bank Mobile Banking\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Krungthai_NEXT.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A33%3A52Z&se=2026-04-23T06%3A57%3A52Z&sr=c&sp=r&sig=8Q6V4FhLCdzknQYuzFvgw%2Fxa1nz2nybhgJ6iH7ep0GA%3D)\n\nKrungthai Bank (KTB) is a leading Thai financial institution known for its strong digital banking services and role in handling government transactions. It provides seamless banking solutions for individuals and businesses nationwide.\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel Code** | KTB\\_MOBILE\\_BANKING |\n| **Display Name** | Krungthai Bank Mobile Banking |\n| **Currency** | THB |\n| **Country** | TH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 20 |\n| **Max Amount** | 700,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | INSTANT |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Mobile%20Banking_KTB.mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A33%3A52Z&se=2026-04-23T07%3A33%3A52Z&sr=c&sp=r&sig=AzasDuFevDNqAn%2BLhZwWNjxsGjp%2B%2Bygs3oivLAOogu4%3D)\n\n1. On checkout page, end customer selects KTB Mobile Banking\n2. Redirect end customer to KTB Mobile Banking app\n3. End customers confirm the amount\n4. End customer click confirm the payment",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/ktb-mobile-banking",
+      "title": "Krungthai Bank Mobile Banking",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:33:55.895962Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 136,
+      "source_file": "ktb-mobile-banking.md"
+    }
+  }
+]

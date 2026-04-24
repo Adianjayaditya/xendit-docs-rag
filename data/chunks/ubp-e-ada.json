@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 262,
+    "text": "# UnionBank eADA\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Unionbank-logo.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A08Z&se=2026-04-23T07%3A11%3A08Z&sr=c&sp=r&sig=O1cYS%2BAfqr2ynz6n3PuwLPtveGIoLyS80BIK9PFqsxM%3D)\n\nOn top of regular one-time payments with UnionBank direct debit, Xendit also offers UnionBank Auto Debit Arrangement (also know as ADA or e-ADA) which enables businesses to automatically collect recurring payments directly from their customers’ UnionBank deposit accounts. This payment solution is widely used for automating bills, subscription fees, loan payments, and other scheduled transactions.\n\nUnionBank ADA is highly regarded for its convenience, security, and efficiency. For customers, it eliminates the hassle of manually paying recurring bills, while businesses benefit from timely and reliable payment collection.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | UBP\\_EADA |\n| **Display Name** | UnionBank eADA |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 1 |\n| **Max Amount** | 100,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | 1 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+1 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | - |\n| **Fund Flow** | AGGREGATOR, SWITCHER |\n\n## Payment flow\n\n- ![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2024-11-29 at 10.38.05 AM.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A08Z&se=2026-04-23T07%3A11%3A08Z&sr=c&sp=r&sig=O1cYS%2BAfqr2ynz6n3PuwLPtveGIoLyS80BIK9PFqsxM%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/ubp-e-ada",
+      "title": "UnionBank eADA",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:12.024698Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 262,
+      "source_file": "ubp-e-ada.md"
+    }
+  }
+]

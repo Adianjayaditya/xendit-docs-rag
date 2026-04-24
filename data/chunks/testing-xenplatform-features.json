@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 251,
+    "text": "# Testing xenPlatform features\n\nSub-accounts can be created while your master account is still in [Test Mode](/docs/your-dashboard). Test sub-accounts allow you to create mock transactions using your test API key and see the transactions appear on your dashboard in Test Mode. With xenPlatform activated, you can also simulate routing payments between accounts.\n\nNote that there are some functions that are not available in Test Mode:\n\n|  | Available in Test Mode | Available in Live Mode |\n| --- | --- | --- |\n| Create any sub-account | ✅ | ✅ |\n| Log in to sub-accounts | ❌ | ✅ |\n| Activate Managed sub-accounts | ❌ | ✅ |\n| “Account Updated” webhook event | ❌ | ✅ |\n| Verify sub-accounts using Dashboard | ❌ | ✅ |\n| Verify sub-accounts using `/account_verification` API | `OWNED` type only | ✅ |\n| Payments, Split and Transfers | ✅ | ✅ |\n| Account Holder API (Legacy) | ❌ | ✅ |\n| Delete sub-accounts | ✅ | ❌ |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/testing-xenplatform-features",
+      "title": "Testing xenPlatform features",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:07:30.005275Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 251,
+      "source_file": "testing-xenplatform-features.md"
+    }
+  }
+]

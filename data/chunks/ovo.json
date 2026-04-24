@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 162,
+    "text": "# OVO\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(49).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A43Z&se=2026-04-23T07%3A04%3A43Z&sr=c&sp=r&sig=H7qQI9yX6VjzzyROaezxd7aZ1IyoblUM%2Bf3tr7zXROI%3D \"image(49).png\")\n\nOVO is one of Indonesia's leading digital payment and financial services platforms. It’s a prominent e-wallet service backed by Grab and has established itself as a preferred payment method for millions of Indonesians, particularly integrated with popular services like Tokopedia and Grab.\n\nWhen customers select OVO at checkout, they can complete the payment through two methods: by logging into their OVO account directly on your checkout page, or by opening their OVO app and authorizing the payment through the app's interface. The payment is confirmed instantly once the customer approves the transaction using their OVO PIN or biometric authentication.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | OVO |\n| **Display Name** | OVO |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | EWALLET |\n| **Min Amount** | 100 |\n| **Max Amount** | 20,000,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | PUSH NOTIFICATION |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.015 |\n| **Payment Token Validity (years)** | INDEFINITE |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | Only for Merchant Initiated Transaction |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 14 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n#### One-off payment\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(41).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A43Z&se=2026-04-23T07%3A04%3A43Z&sr=c&sp=r&sig=H7qQI9yX6VjzzyROaezxd7aZ1IyoblUM%2Bf3tr7zXROI%3D \"image(41).png\")\n\n#### Tokenized payment\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(48).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A43Z&se=2026-04-23T07%3A04%3A43Z&sr=c&sp=r&sig=H7qQI9yX6VjzzyROaezxd7aZ1IyoblUM%2Bf3tr7zXROI%3D \"image(48).png\")",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/ovo",
+      "title": "OVO",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:28:48.217690Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 162,
+      "source_file": "ovo.md"
+    }
+  }
+]

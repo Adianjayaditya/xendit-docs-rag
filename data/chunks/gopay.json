@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 104,
+    "text": "# GoPay\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(128).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A16Z&se=2026-04-23T06%3A39%3A16Z&sr=c&sp=r&sig=MtlxumwvyBJIaYE5AjHZ1wg0JTIyghP26jELVQIqX1M%3D)\n\nGoPay is Indonesia's leading digital wallet and payment platform, originally developed by Gojek. It has become one of the most widely adopted e-wallet services in Indonesia, integrated across the Gojek ecosystem including GoFood, GoRide, and numerous merchant partners throughout the country.\n\nWhen customers select GoPay at checkout, they are redirected to the GoPay interface where they can authorize the payment using their GoPay account. The transaction is completed instantly once the customer confirms the payment with their GoPay PIN or biometric authentication through the GoPay app.\n\nEffective 1 January 2026, GoPay transactions can only be completed through the GoPay mobile application. Customers must authorize and confirm their payments directly within the GoPay app using their registered account.\n\n## Features\n\nGoPay offers two channel codes for different payment scenarios:\n\n- **GOPAY**: Use this for one-time payment\n- **GOPAY\\_RECURRING\\***: Use this for recurring payment\n\n\\*: additional activation process with partner is needed\n\n|  |  |\n| --- | --- |\n| **Channel Code** | GOPAY\\_RECURRING |\n| **Display Name** | GoPay |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | EWALLET |\n| **Min Amount** | 1 |\n| **Max Amount** | 50,000,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.5 |\n| **Payment Token Validity (years)** | INDEFINITE |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+1 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 45 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment Flow\n\n### One-Time Payment\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(159).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A16Z&se=2026-04-23T06%3A39%3A16Z&sr=c&sp=r&sig=MtlxumwvyBJIaYE5AjHZ1wg0JTIyghP26jELVQIqX1M%3D)\n\n### Save Payment Method\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(160).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A16Z&se=2026-04-23T06%3A39%3A16Z&sr=c&sp=r&sig=MtlxumwvyBJIaYE5AjHZ1wg0JTIyghP26jELVQIqX1M%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/gopay",
+      "title": "GoPay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:28:20.224523Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 104,
+      "source_file": "gopay.md"
+    }
+  }
+]

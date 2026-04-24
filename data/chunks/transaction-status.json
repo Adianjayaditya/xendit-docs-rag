@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 257,
+    "text": "# Transaction and settlement statuses\n\nUse this reference to read the pair of fields `transaction_status` and `settlement_status` you see in the Dashboard, API responses, and reports.\n\n![Flowchart showing possible transitions between transaction statuses and settlement statuses.](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/status_transitions.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A05%3A34Z&se=2026-04-23T06%3A16%3A34Z&sr=c&sp=r&sig=b0d%2BXSnHVZvxfeGLh3YTKtEWaDa5cNMDYk8PXEFDT4o%3D)\n\nHigh-level flow of status transitions\n\n## Money-in (Payments)\n\nThe table below maps each payment phase to its `transaction_status` and `settlement_status`.\n\n| Phase | Transaction Status | Settlement Status | Meaning |\n| --- | --- | --- | --- |\n| Payment success | **SUCCESS** | **PENDING** | Funds captured; will be settled automatically on `settlement_date`. |\n| Settlement complete — normal | **SUCCESS** | **SETTLED** | Funds posted on the scheduled settlement date. |\n| Settlement complete — early | **SUCCESS** | **EARLY\\_SETTLED** | Funds posted *before* the scheduled settlement date. |\n| Cancelled before settlement | **VOIDED** | **null** | Payment voided before any ledger posting. |\n| Reversal after settlement | **REVERSED** | **SETTLED** / **EARLY\\_SETTLED** | Transaction reversed manually after settlement. |\n\n## Money-out (Payouts & Refunds)\n\nThe same two fields apply to outgoing funds. Interpret them using the table below.\n\n| Phase | Transaction Status | Settlement Status | Meaning |\n| --- | --- | --- | --- |\n| Payout created | **PENDING** | **PENDING** | Transaction created; processing with partner. |\n| Failed payout | **FAILED** | **null** | Partner rejected the payout. |\n| Payout success | **SUCCESS** | **SETTLED** | Funds debited and ledger movement completed. |\n| Cancelled before settlement | **VOIDED** | **null** | Transaction cancelled before settlement. |\n| Reversal after settlement | **REVERSED** | **SETTLED** | Payout manually reversed during reconciliation. |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/transaction-status",
+      "title": "Transaction and settlement statuses",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:05:37.177024Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 257,
+      "source_file": "transaction-status.md"
+    }
+  }
+]

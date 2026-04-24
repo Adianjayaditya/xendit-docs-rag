@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 52,
+    "text": "# Overview\n\nXendit empowers businesses in Southeast Asia to accept online card payments securely and reliably. With a growing number of shoppers in the region gaining access to bank accounts and cards, offering a seamless card payment experience is essential. We support major card networks like Visa, Mastercard, JCB, and American Express, along with regional options like BCA and GPN, across multiple countries.\n\n## **Supported countries & card brands:**\n\n- **Indonesia (🇮🇩):** Visa, Mastercard, JCB, American Express, BCA, GPN\n- **Malaysia (🇲🇾):** Visa, Mastercard, JCB, American Express\n- **Philippines (🇵🇭):** Visa, Mastercard, JCB\n- **Singapore (🇸🇬):** Visa, Mastercard\n- **Thailand (🇹🇭):** Visa, Mastercard, JCB, China UnionPay, American Express\n- **Vietnam (🇻🇳):** Visa, Mastercard, JCB\n\n## Supported functionality\n\n|  | American express | China UnionPay | JCB | Mastercard | Visa | Other domestic cards |\n| --- | --- | --- | --- | --- | --- | --- |\n| [One-off payment](/docs/guest-checkout) (*Guest checkout*) | 🇮🇩 ID  🇲🇾MY (redirect only)  🇹🇭 TH (redirect only) | 🇹🇭TH (redirect only) | 🇮🇩 ID  🇲🇾MY  🇵🇭PH  🇹🇭TH (redirect only)  🇵🇭PH  🇹🇭TH  🇻🇳VN | 🇮🇩ID  🇲🇾MY  🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | 🇮🇩ID  🇲🇾MY  🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | BCA - 🇮🇩  GPN - 🇮🇩 |\n| [Subscription/recurring](/v1/docs/subscription-and-merchant-initiated-transactions) | 🇮🇩ID |  | 🇮🇩 ID  🇵🇭PH | 🇮🇩ID  🇲🇾MY  🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | 🇮🇩ID  🇲🇾MY  🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN |  |\n| [Unscheduled card on file (merchant initiated transactions)](/v1/docs/subscription-and-merchant-initiated-transactions) | 🇮🇩ID |  | 🇮🇩 ID  🇵🇭PH  🇻🇳VN | 🇮🇩ID 🇲🇾MY 🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | 🇮🇩ID 🇲🇾MY 🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN |  |\n| [One-click (stored card)](/v1/docs/store-a-card-for-one-click) | 🇮🇩 ID |  | 🇮🇩 ID  🇵🇭PH | 🇮🇩ID  🇲🇾MY 🇵🇭PH **🇸🇬**SG 🇹🇭TH  🇻🇳VN | 🇮🇩ID  🇲🇾MY 🇵🇭PH **🇸🇬**SG 🇹🇭TH  🇻🇳VN |  |\n| [Manual capture](/v1/docs/capturing-a-card-payment) | 🇮🇩 ID |  | 🇮🇩 ID  🇵🇭PH | 🇮🇩ID 🇲🇾MY 🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | 🇮🇩ID 🇲🇾MY 🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN |  |\n| [Refunds](/v1/docs/refund-a-card-payment) | 🇮🇩ID  🇹🇭TH | 🇹🇭TH | 🇮🇩 ID  🇹🇭TH  🇵🇭PH | 🇮🇩ID  🇲🇾MY  🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | 🇮🇩ID  🇲🇾MY  🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | BCA - 🇮🇩  GPN - 🇮🇩 |\n| [Partial capture](/docs/cards-capturing-a-card-payment) | 🇮🇩 ID |  | 🇮🇩 ID | 🇮🇩ID 🇲🇾MY 🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN | 🇮🇩ID 🇲🇾MY 🇵🇭PH **🇸🇬**SG  🇹🇭TH  🇻🇳VN |  |\n\n> To process in the most suitable way, make sure to choose the [correct integration](/docs/cards-choose-the-correct-integration).",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/cards-api-overview",
+      "title": "Overview",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:19:34.049761Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 52,
+      "source_file": "cards-api-overview.md"
+    }
+  }
+]

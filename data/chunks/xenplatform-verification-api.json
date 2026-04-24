@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 289,
+    "text": "# Overview\n\nWith your Master account, you can submit your merchant’s information for verification via API. Doing so enables you to control the collection of data on your Platform’s interface before passing the data to Xendit.\n\n> Region & Account Type Support\n>\n> For Global accounts:\n>\n> - You may use the Account Verification API for both `Owned` accounts created using `/v2/accounts` API, or for sub-accounts created in the Dashboard\n> - For sub-accounts created in the Dashboard, click “Verify Business” and fill in the Name and Country of Incorporation for the business and proceed first before you can use the API to submit the rest of the KYC information. Ensure that the `country_of_incorporation` in the API parameter matches the country selected in the interface.\n>\n> For Master accounts whose country of operation is in `ID`, `PH`, `TH`, `MY`, or `VN`:\n>\n> - When submitting for `MANAGED` sub-accounts, ensure that the sub-account status has changed to `REGISTERED` by accepting the initial email invitation before submitting KYC information. You can subscribe to the Account Updated webhook to listen for the event.\n> - `OWNED` sub-accounts will still go Live and can transact after being created. The verification information can still be submitted at any point after creation.\n\n### Flow and Implementation\n\nAfter creating the sub-account, follow the steps below to get your sub-account verified:\n\n1. [Upload Required Files](https://developers.xendit.co/api-reference/#upload-file)\n2. [Submit Account Verification](/v1/docs/submit-account-verification)\n3. [Handle Webhook Events](/v1/docs/verification-webhook)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/xenplatform-verification-api",
+      "title": "Overview",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:26:50.874724Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 289,
+      "source_file": "xenplatform-verification-api.md"
+    }
+  }
+]

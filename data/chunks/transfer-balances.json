@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 259,
+    "text": "# Transfer sub-account balances\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/accept-payment-for-eng(2).webp?sv=2022-11-02&spr=https&st=2026-04-23T06%3A17%3A50Z&se=2026-04-23T06%3A28%3A50Z&sr=c&sp=r&sig=sy%2BZ6XIF4KDC%2FBG2zEuXUlEzrRh0l8cYYzS76liNcF4%3D)\n\nWith xenPlatform, you have full control over your merchant’s balance. You can transfer any amount of funds from your Mater Account to sub-accounts, and vice-versa.\n\n| Source | Destination | Use Cases |\n| --- | --- | --- |\n| Master-Account | Sub-Account | - Send bonuses - Send refunds - Top up merchant’s balance |\n| Sub-Account | Master-Account | - Charge platform commission - Charge subscription fees - Charge management fees |\n| Sub-Account | Sub-Account | - Facilitate reselling or drop shipping |\n\n## Region Support for Global Accounts\n\nCross-border transfers and split payments (between accounts incorporated in different countries) are not supported for merchants incorporated in 🇮🇩 Indonesia. You may still transfer funds between accounts incorporated in the same country.\n\nAdditionally, transfers and split payments can only be made between balances of the same currency. You may use the conversion feature before or afterwards to convert currencies.\n\n## How to create transfers\n\n**Via dashboard:**\n\n1. Navigate to the xenPlatform Accounts page\n2. Click the **Create transfer** button\n3. Fill in the required fields\n\n   1. `From`: account ID or name where the funds are transferred from\n   2. `To`: account ID or name where the funds are transferred to\n   3. `Amounts to transfer`: the amount of funds of your choice\n   4. `Reference`: a unique identifier of the transfer\n\n**Via API:**\n\nTo create transfer via API, you will need to specify the required parameters:\n\n- `reference`: a unique identifier of this transfer for reconciliation purposes\n- `amount`: the amount you would like to transfer\n- `source_user_id`: the account balance from which you would like to send the Transfer from\n- `destination_user_id`: the account balance from which you would like to send the Transfer to\n\nCustom\n\n```\ncurl --request POST \\\n  --url POST https://api.xendit.co/transfers \\\n  --data '{\n\"reference\":\"2020-nov-subscription-fee\",\n\"amount\":10000,\n\"source_user_id\":\"5cafeb170a2b18519b1b8768\",\n\"destination_user_id\":\"5f8d0c0603ffe06b7d4d9fcf\"\n}'\n```\n\nBash\n\nCopy\n\nNotes on transfers:\n\n- All transfers will be executed immediately\n- Transfer amount should be less than the total balance of the sender’s account\n- Transfer amount needs to be an absolute number\n- You can only create transfers using the Master-Account's API key. Sub-Accounts that you manage through xenPlatform have no ability to create transfers through this endpoint.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/transfer-balances",
+      "title": "Transfer sub-account balances",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:17:54.094185Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 259,
+      "source_file": "transfer-balances.md"
+    }
+  }
+]

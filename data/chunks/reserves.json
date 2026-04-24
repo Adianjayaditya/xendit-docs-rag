@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 218,
+    "text": "# Reserves\n\nReserves are funds in your Xendit account that are temporarily locked to cover future liabilities such as chargebacks or disputes. The funds are still yours but cannot be withdrawn until released.\n\n---\n\n## When You Need This\n\n- You see a *Reserve Balance* in the Dashboard.\n- You received an email saying a reserve was added or updated.\n- You want to understand fixed and rolling reserves and how releases work.\n\n---\n\n## How Reserves Work\n\nWhen Xendit applies a reserve, a portion of your settlement funds is moved from *Available Balance* to *Reserve Balance*. If a liability later occurs, Xendit may offset it with the reserve. Any remaining amount is released back to your available balance after the holding period.\n\n---\n\n## Reserve Types\n\n| Type | Purpose | Holding Period | Example |\n| --- | --- | --- | --- |\n| **Fixed** | Locks a fixed amount. | Until the service agreement ends (or as agreed). | IDR 40 000 000 held until termination. |\n| **Rolling** | Locks a percentage of each transaction. | Released after `n` days on a rolling basis. | 5 % of every transaction held for 30 days. |\n\n*You may have both fixed and rolling reserves simultaneously.*\n\n---\n\n## Release Logic\n\n- **Fixed reserve** – released in full when the contract ends, minus any unsettled liabilities.\n- **Rolling reserve** – each day’s withheld amount auto-releases after the holding period (e.g., Day 1 funds release on Day 31).\n\n---\n\n## Where to View Reserves\n\n1. Open **Balance** in the Dashboard.\n2. Select **Reserve Balance › See Details**.\n3. Switch between the **Fixed** and **Rolling** tabs.\n\n### Balance History\n\n- **Reserves Hold** – funds moved into reserve.\n- **Reserves Release** – funds returned to available balance.\n\n---\n\n## If You Stop Processing\n\nIf you stop processing with Xendit, the reserve may be used to settle outstanding liabilities before the remaining balance is released.\n\n---\n\n## FAQ\n\n**Can I lower or remove a reserve?** Contact your account manager or Xendit Support. Requests are reviewed case-by-case.\n\n**Are reserves calculated on gross or net?** Rolling reserves use the gross transaction amount unless your contract states otherwise.\n\n**What currency is used?** The reserve matches your settlement currency.\n\n*Reminder:* Percentages, amounts, and holding days are defined in your merchant agreement or in writing from Xendit.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/reserves",
+      "title": "Reserves",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:05:18.846745Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 218,
+      "source_file": "reserves.md"
+    }
+  }
+]

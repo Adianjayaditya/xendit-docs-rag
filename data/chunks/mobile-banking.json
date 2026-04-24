@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 151,
+    "text": "# SCB-Mobile Banking\n\n![Logo of SCB featuring a stylized spade design and the letters SCB.](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/SCB_EASY.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A37Z&se=2026-04-23T06%3A46%3A37Z&sr=c&sp=r&sig=BBii3Mt%2BkuqT6AHmSswbojWEVgFKRPVnYs%2BR0VkXflk%3D)\n\nSiam Commercial bank (SCB) mobile banking is one of Thailand’s most widely used banking services for everyday needs.\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| Channel code | `SCB_MOBILE_BANKING` |\n| Currency | THB |\n| Minimum amount | 20 |\n| Maximum amount | 700,000 |\n| User approval flow | REDIRECT |\n| Reusable payment code | ❌ |\n| Custom payment code | ❌ |\n| Display merchant name | Xendit |\n| Display user name | ❌ |\n| Set expiry | ❌ |\n| Settlement Time | Instant |\n| Refund | ❌ |\n| Partial refund | ❌ |\n| Multiple partial refund | ❌ |\n| Refund validity | ❌ |\n| Compatible integration | Payment API, Payment Link |\n\n## Payment flow\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/SCB%20Mobile%20Banking%20New.mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A37Z&se=2026-04-23T07%3A35%3A37Z&sr=c&sp=r&sig=hRzWBK6KZwC2ieO9SelNjACknObc6wnBasQeyveDXjg%3D)\n\n1. On checkout page, end customer selects SCB Mobile Banking\n2. Redirect end customer to SCB Mobile Banking app\n3. End customers confirm the amount\n4. End customer click confirm the payment",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/mobile-banking",
+      "title": "SCB-Mobile Banking",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:41.526000Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 151,
+      "source_file": "mobile-banking.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 45,
+    "text": "# BPI Recurring\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/BPI Logo Red 2021(1).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A14Z&se=2026-04-23T06%3A53%3A14Z&sr=c&sp=r&sig=Pf9dR1lJbreN7lfZop%2BN2GSv849uEpFApVjb0aBljjA%3D)\n\nThe Bank of the Philippine Islands (BPI) is one of the largest and most trusted banks in the Philippines, with a strong presence in both traditional and digital banking services. On top of BPI direct debit that serves one-time payment use cases, BPI also offers a recurring solution for tokenized / recurring payment flows. This is widely used for regular payment use cases such as subscriptions, utilities, loans, tuition fees, and instalment plans.\n\nThis simplifies payment management by eliminating the need for manual payment processing, making it highly popular among businesses and consumers alike. Businesses benefit from reliable and timely payment collection, while customers enjoy the convenience of automated transactions without worrying about missing deadlines.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | BPI\\_RECURRING |\n| **Display Name** | BPI Recurring |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 1 |\n| **Max Amount** | 100,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | 0.25 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+1 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | - |\n| **Fund Flow** | AGGREGATOR, SWITCHER |\n\n- Account Linking (Redirection)\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2024-11-29 at 10.13.12 AM.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A14Z&se=2026-04-23T06%3A53%3A14Z&sr=c&sp=r&sig=Pf9dR1lJbreN7lfZop%2BN2GSv849uEpFApVjb0aBljjA%3D)\n\n##",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/bpi-recurring",
+      "title": "BPI Recurring",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:34:18.014055Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 45,
+      "source_file": "bpi-recurring.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 41,
+    "text": "# BJB Virtual Accounts\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(32).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A27%3A44Z&se=2026-04-23T06%3A38%3A44Z&sr=c&sp=r&sig=MQKDm6uHdnZ94npoky0IeoUhTdPD8OsuAUPn68DPGaE%3D \"image(32).png\")\n\nBJB Virtual Account is a regional banking payment method widely used in West Java and Banten provinces of Indonesia. BJB Virtual Account is offered by Bank BJB, the largest regional development bank in Indonesia that serves as the primary banking partner for local government transactions and public services in its operating regions.\n\nWhen customers select BJB VA at checkout, they receive a unique virtual account number. They can complete the payment through multiple channels including BJB Mobile banking, BJB Net banking, ATMs, or at any BJB branch location. The payment is confirmed instantly once the customer transfers the exact amount to the provided virtual account number.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel code** | `BJB_VIRTUAL_ACCOUNT` |\n| **Currency** | IDR |\n| **Minimum amount** | 1 |\n| **Maximum amount** | 2,000,000,000 |\n| **User approval flow** | PRESENT TO CUSTOMER |\n| **Reusable payment code** | ✅ |\n| **Custom payment code** | ✅ |\n| **Display merchant name** | MERCHANT |\n| **Display user name** | ✅ |\n| **Set expiry** | ✅ |\n| **Settlement time** | Instant |\n| **Refund** | ❌ |\n| **Partial refund** | ❌ |\n| **Multiple partial refund** | ❌ |\n| **Refund validity** | N/A |\n| **Compatible integration** | Payment API, Payment Link |\n\n## Payment flow\n\nMobile banking\n\n### **Log In To Your Account**\n\n1. Open BJB Mobile app\n2. Enter User ID and Password\n\n### **Payment Details**\n\n1. Choose \"Virtual Account\"\n2. Select the type of account you are using to transfer (i.e. from Savings account)\n3. Enter Virtual Account Number, for example ***1234999968795947***\n4. Confirm your transaction details displayed\n\nInternet banking\n\n### **Log In To Your Account**\n\n1. Open [**https://ib.bankbjb.co.id/bjb.net**](https://ib.bankbjb.co.id/bjb.net)\n2. Enter User ID and Password\n\n### **Payment Details**\n\n1. Select \"Virtual Account\"\n2. Select the type of account you are using to transfer (i.e. from Savings account)\n3. Enter Virtual Account Number, for example ***1234999968795947***\n4. Confirm your transaction details displayed\n\nATM\n\n### **Find Nearest ATM**\n\n1. Insert your BJB ATM card and PIN\n2. Enter your ATM PIN\n\n### **Payment Details**\n\n1. Select Menu \"Transaksi Lainnya\"\n2. Select \"Virtual Account\"\n3. Select the type of account you are using to transfer (i.e. from Savings account)\n4. Enter Virtual Account Number, for example ***1234999968795947***\n5. Confirm your transaction details displayed",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/bjb-virtual-account",
+      "title": "BJB Virtual Accounts",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:27:48.318925Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 41,
+      "source_file": "bjb-virtual-account.md"
+    }
+  }
+]

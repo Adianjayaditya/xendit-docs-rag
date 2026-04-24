@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 10,
+    "text": "# Alfamart\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(40).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A27%3A13Z&se=2026-04-23T07%3A04%3A13Z&sr=c&sp=r&sig=vnpAr57Sn%2F1C4TMM2JbbmmefPQjs%2FdWEO64VKDAS6oc%3D \"image(40).png\")\n\nAlfamart is one of Indonesia's largest retail chains with over 17,000 convenience stores spread across residential areas, making it a convenient payment point for customers who prefer cash transactions or have limited access to digital banking.\n\nWhen customers select Alfamart as their payment method at checkout, they receive a unique payment code. They can then visit any Alfamart store within the payment time limit, present the payment code to the cashier, and complete the transaction with cash. The payment is confirmed instantly once the customer completes the payment at the store counter.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | ALFAMART |\n| **Display Name** | Alfamart |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | OVER THE COUNTER |\n| **Min Amount** | 10,000.00 |\n| **Max Amount** | 5,000,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | ✓ |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | ✓ |\n| **Set Expiry** | ✓ |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+5 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n### **Note**\n\n- You can make a payment to the Alfamart Group (Alfamart, Afamidi, Dan+Dan, Lawson).\n- Payments below IDR 2,5 Million are available via Alfamart, Afamidi, Dan+Dan, Lawson.\n- Payments above IDR 2,5 Million are not available via Alfamidi.\n\n### **Find Nearest Branch**\n\n1. Visit the nearest ALFAMART branch before the time on the payment code/barcode runs out\n2. Tell the cashier that you would like to make a payment to “[Merchant Name]” via Xendit or let them scan the barcode above\n\n### **Payment Details**\n\n1. Present the payment code/barcode to the cashier and confirm that the amount is correct\n2. Inform the cashier if you want to pay using a Cash only, or mixed combination of Cash and Debit/Prepaid Card or E-wallet.\n3. Maximum amount allowed pay by Cash is IDR 2,5 Million, the rest should be combined using Debit/Prepaid Card or E-wallet.\n4. Proceed to make a payment with the amount on your payment code/barcode",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/alfamart",
+      "title": "Alfamart",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:27:17.727742Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 10,
+      "source_file": "alfamart.md"
+    }
+  }
+]

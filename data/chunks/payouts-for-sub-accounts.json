@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 192,
+    "text": "# Payouts for sub-accounts\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/xp-step-4.webp?sv=2022-11-02&spr=https&st=2026-04-23T06%3A17%3A35Z&se=2026-04-23T06%3A28%3A35Z&sr=c&sp=r&sig=sZTe%2BDYn8t75Z8YFUt7OBN1BaEvVx%2FwR6R%2Fp%2BzxtGV8%3D)\n\nAs Master Account, you can request payouts from your merchant’s balance for various purposes (withdrawals, refunds, vendor payments). The payout options available vary by sub-account type.\n\n| Payout Option | Owned Sub-Accounts | Managed Sub-Accounts |\n| --- | --- | --- |\n| Payout | Master Account can create payouts on behalf of sub-accounts. Sub-accounts can execute via their own Dashboards. | Master Account can create payouts on behalf of sub-accounts. Sub-account users can execute via their own Dashboards. |\n| Withdrawal | Only Master Account can withdraw funds. Sub-account balances must be disbursed or transferred to the Platform. | Sub-account users can execute via their own Dashboards. |\n| Auto-withdrawal | Master Account can setup their own auto-withdrawal schedules | Sub-account users can setup their own auto-withdrawal schedules |\n\n## Create Payouts for your merchants\n\nAs Master Account, you can use the your API key and disburse funds from sub-account balances via API:\n\n- [Create payout](/docs/integration-payouts#before-you-start) with an additional header parameter `for-user-id`\n- Input the `id` of the sub-account that you want to make a payout for\n\n## Withdrawals for Sub-Accounts\n\nThere are two configurations for sub-accounts that has access to withdrawals:\n\n1. `MANAGED` type sub-accounts\n2. Sub-accounts created with [custom](/v1/docs/sub-accounts) `configurations` via API, with the `allow_withdrawals` set to `true`\n\n[This page](/docs/withdrawal) explains how users can add their bank accounts and withdraw funds to their banks.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/payouts-for-sub-accounts",
+      "title": "Payouts for sub-accounts",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:17:39.069036Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 192,
+      "source_file": "payouts-for-sub-accounts.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 245,
+    "text": "# Features\n\nOur Subscription features are designed to provide a robust and flexible recurring payment solution. The following table outlines the key capabilities, from comprehensive payment channel support and PCI-compliant card handling to automated notifications and retry mechanisms, ensuring a seamless experience for both you and your customers.\n\n| Feature | Description |\n| --- | --- |\n| Payment channel coverage | Supports all payment channels that can be used for recurring payment. |\n| PCI compliant card data collection using Xendit-hosted page | Tokenize your customer card details without the need to be PCI certified. Our Xendit-hosted checkout UI helps to handle sensitive card information collection. |\n| Customer notifications | Automated email or WhatsApp notifications to your customer for subscription confirmations, missed payments, and successful transactions. |\n| Retry mechanism | Automated retries to recover missed payments, improving collection rates. |\n| Multiple payment methods | Support multiple payment methods to be linked to one subscriptions plan as main and backup payment method |\n| Force subscription cycle attempt | Allows immediate charging for a specific subscription cycle. |\n| Automated Payment Link for failed payments | Automatically send a Payment Link to your customer when a payment fails, allowing them to complete the payment for a specific cycle to recover the missed payment. |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/subscriptions-features",
+      "title": "Features",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:30:46.185041Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 245,
+      "source_file": "subscriptions-features.md"
+    }
+  }
+]

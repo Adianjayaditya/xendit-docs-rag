@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 88,
+    "text": "# Reconciling your Xendit Invoice\n\nTo match transactions to your Xendit Invoice, use our Billing Report.\n\nThe Billing Report shows the full list of individual transactions and associated fees that were charged in the monthly Invoice.\n\n## **Available columns in the Billing Report**\n\nThe table below provides the definition of every column available in the Billing Report:\n\n| Title | Description |\n| --- | --- |\n| id | The transaction\\_id used in balance history and transactions tab reports or an ID that uniquely defines a billable event |\n| reference | The unique identifier you input for the transaction. Usually the external\\_id or reference\\_id in your transaction request |\n| transaction\\_type | The product such as VA\\_PAYMENT, EWALLET\\_PAYMENT, etc |\n| transaction\\_channel | The subcategory of transaction\\_type used such as DANA, BNI, BCA, etc |\n| transaction\\_label | The subcategory of transaction\\_channel used such as QR, Installments 3 Months, etc |\n| is\\_switcher | Whether a transaction\\_type was a switcher transaction. Only relevant for Virtual Account and Cards transactions |\n| calculation\\_method | The identifier of refund fee calculation of refund transactions. DEFAULT = Full refund. VARIABLE\\_FEE\\_REFUND = Partial refund. NO\\_FEE\\_REFUND = Refund transaction with no fee refunded |\n| business\\_id | The unique identifier used to identify a Xendit merchant |\n| billed\\_at | The timestamp of a transaction being billed based on your registered country timezone. For example, Indonesian merchants will have GMT+7 while Philippines merchants will have GMT+8 as the timestamp timezone |\n| fee\\_pricing\\_currency | The currency in which the flat fees are denominated |\n| tier | The pricing tier applicable to the transaction |\n| flat\\_fee | The flat fee billing rate used for the transaction to calculate the transaction fee |\n| fee\\_percentage | The percentage billing rate used for the transaction to calculate the transaction fee |\n| net\\_currency | The currency of settlement of the transaction |\n| gross\\_amount | Transaction amount expressed in net currency |\n| transaction\\_currency | The customer facing currency for money-in and the balance currency for money-out |\n| fee\\_amount | The amount of fees for the transaction |\n| vat\\_amount | The amount of VAT charged to the transaction |\n| deduction | Indicates if the fee is directly or indirectly deducted. Values: DIRECT (fee deducted from the transaction amount), INDIRECT (fee invoiced separately) |\n\n##",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/documentation-template-16",
+      "title": "Reconciling your Xendit Invoice",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:04:31.156870Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 88,
+      "source_file": "documentation-template-16.md"
+    }
+  }
+]

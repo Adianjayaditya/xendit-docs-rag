@@ -1,0 +1,14 @@
+[
+  {
+    "chunk_index": 189,
+    "text": "| Payment Scheme | FAST |\n| --- | --- |\n| Supported Currencies | SGD |\n| Estimated Time of Arrival | 15 minutes |\n| Cut-off Time | N/A |\n| Transaction Limit | 200,000 |\n| Description Support | Yes |\n| Supported Use Case | Local and Cross-Border Payouts (via Global Dashboard) |\n\n## Channel codes\n\nLearn the different payout destinations that we support along with its destination-specific information in the table below:\n\n## Required Values for Cross-Border Payouts\n\nAs a prerequisite to creating a Cross-Border Payout, you are required to send us the ultimate sender and recipient’s information. Learn the required information for the region to start sending payouts:\n\n### Sender\n\n| Field Parameter | Type | Description |\n| --- | --- | --- |\n| `first_name` | `INDIVIDUAL` | First name of sender |\n| `last_name` | `INDIVIDUAL` | Last name of sender |\n| `business_name` | `BUSINESS` | Full registered name of sender |\n| `address.country` | Any |  |\n| `address.city` | Any |  |\n| `address.street_line_1` | Any |  |\n| `address.postal_code` | Any |  |\n\n### Recipient\n\n| Field Parameter | Type | Description |\n| --- | --- | --- |\n| `first_name` | `INDIVIDUAL` | First name of recipient |\n| `last_name` | `INDIVIDUAL` | Last name of recipient |\n| `business_name` | `BUSINESS` | Full registered name of recipient |\n| `company` | Any | Channel code of the recipient’s account |\n| `account_number` | Any | Account number of the recipient’s account detail |\n| `account_holder_name` | Any | Account holder name of the recipient’s account detail |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/payouts-coverage-singapore",
+      "title": "Singapore",
+      "section": "docs",
+      "product": "xendit",
+      "chunk_index": 189,
+      "source_file": "payouts-coverage-singapore.md"
+    }
+  }
+]

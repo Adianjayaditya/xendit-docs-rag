@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 155,
+    "text": "# WeChat Pay\n\nWeChat is a comprehensive app used in China for instant messaging, social media, and mobile payments. Users with Chinese bank accounts can link these accounts to their WeChat profiles, enabling them to conduct payments online and in person through WeChat Pay.\n\nWeChat Pay boasts over 900 million active monthly users, making it an essential payment option for businesses targeting Chinese consumers. You can integrate WeChat Pay into your website for both desktop and mobile browser users. Our integration tools, such as Drop-in or Component, include a WeChat Pay button on your checkout page.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | WECHATPAY |\n| **Display Name** | WeChat Pay |\n| **Currency** | MYR |\n| **Country** | MY |\n| **Type** | EWALLET |\n| **Min Amount** | 0.1 |\n| **Max Amount** | 25,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | QR CODE |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.083 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | 365 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\nFor **desktop users,** a QR code is displayed on the payment page, which they can scan using their WeChat Pay app to complete the transaction. This functionality is readily available when you add WeChat Pay to your Customer Area.\n\n**Mobile users** are redirected to their WeChat Pay app to finalize their payment, after which they are sent back to your payment page.\n\n- Deeplink (H5)\n\n  [](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/WeChatpay%20-%20mobile%20%20(1).mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A31%3A35Z&se=2026-04-23T07%3A31%3A35Z&sr=c&sp=r&sig=R7wb%2BlGr0MOmckxKdCXCj1OCTdvaL4C4wlQ%2Bbi%2FrAmo%3D)\n\n##",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/my-wechatpay",
+      "title": "WeChat Pay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:31:40.687450Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 155,
+      "source_file": "my-wechatpay.md"
+    }
+  }
+]

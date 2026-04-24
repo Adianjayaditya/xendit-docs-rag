@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 72,
+    "text": "# Consolidated Reports\n\nFrom your Accounts Overview page, you can select one or more sub-accounts and generate either Balance or Transaction history reports to be sent to your email address.\n\n1. Go to **Accounts** on your dashboard\n2. Select the **sub-accounts** to export reports for\n3. Click on **Export** and follow the instructions\n\nYou'll receive an email with a link to download the CSV report.\n\nNote that there are currently some limitations:\n\n- The reporting limit for the date range is 31 days\n- If you are consolidating a large number of transactions across many sub-accounts, the report may exceed the limit and fail to generate:\n\n  - Same-day exports (date range set to “Today”) are limited to 1 million rows\n  - Exports for the previous day and older are limited to 10 million rows\n\n## Exporting detailed reports for a sub-account\n\nYou can export Transaction or Balance history reports for a single account on the Activity page.\n\n1. Go to the **Accounts** page\n2. Choose a sub-account and navigate to the **Account Activity** page\n3. Select the **transaction type** to export\n4. Click **CSV** and follow the instructions\n\nYou will receive an email with a link to download the CSV report.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/consolidated-reports",
+      "title": "Consolidated Reports",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:29:34.794477Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 72,
+      "source_file": "consolidated-reports.md"
+    }
+  }
+]

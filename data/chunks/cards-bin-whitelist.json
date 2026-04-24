@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 54,
+    "text": "# Card BIN whitelist\n\nPayment Links allow you to specify a list of **Bank Identifier Numbers (BINs)**—the first 6 or 8 digits of a card number—that you wish to accept for payments made through the Xendit-hosted page.\n\nThis feature is particularly useful for businesses running promotions in collaboration with specific bank partners. By limiting the accepted BINs, you can ensure that only eligible cards are used for the promotion, improving campaign efficiency and compliance with partner requirements.\n\n## How it works\n\nWhen creating a Payment Link, you can specify a list of allowed BINs by including the `allowed_bins` parameter in the `channel_properties.cards.allowed_bins` object of your API request.\n\nExample\n\n```\n{\n\"external_id\": \"eraspace-payment-link-example\",\n\"amount\": 25000000,\n\"currency\": \"IDR\",\n\"description\": \"Iphone 16 Pro Max 1 TB\",\n\"invoice_duration\":86400,\n\"payment_methods\": [\"CREDIT_CARD\"],\n\"channel_properties\": {\n  \"cards\": {\n    \"allowed_bins\": [\n        \"123456\",\n        \"12345678\"\n    ]\n  }\n},\n\"success_redirect_url\": \"https://eraspace-success.com\",\n\"failure_redirect_url\": \"https://eraspace-faile.com\"\n}\n```\n\nJSON\n\nCopy\n\nOnce you specify the BINs in the `allowed_bins` parameter during Payment Link creation, **on the Xendit-hosted page, users will only be able to input card numbers that match the specified BINs**. Cards with BINs outside this list will be automatically rejected during checkout process.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/cards-bin-whitelist",
+      "title": "Card BIN whitelist",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:19:03.482232Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 54,
+      "source_file": "cards-bin-whitelist.md"
+    }
+  }
+]

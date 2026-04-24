@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 272,
+    "text": "# Verifying your account\n\nXendit has an obligation to verify that all businesses that we provide services to are **operating within legal and regulatory frameworks, and to ensure compliance with our internal policies**. This process is fundamental to maintaining a secure and trustworthy financial ecosystem. To fulfill these responsibilities, Xendit requires all prospective merchants to undergo a verification process.\n\n### Business Documents\n\nYou can find more detailed information on each country’s specific document requirements here:\n\n[Indonesia](/v1/docs/indonesia-business-documents)\n\n[Philippines](/v1/docs/philippines-business-documents)\n\n[Malaysia](/v1/docs/malaysia-business-documents)\n\n[Thailand](/v1/docs/thailand-business-documents)\n\n[Vietnam](/v1/docs/vietnam-business-documents)\n\n[Hong Kong](/v1/docs/hong-kong-business-documents)\n\n[Singapore and all other countries of incorporation](/v1/docs/singapore-and-others-business-documents)\n\n### Authorized Representative\n\nFor every business engaging Xendit’s services, we will require information on the **Authorized Representative** establishing the account. This ensures that the individual submitting the business's information and accepting the terms of service is duly **appointed and authorized** by the registered business entity. More details can be found [here](/v1/docs/authorized-representative-requirements).",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/verifying-your-account",
+      "title": "Verifying your account",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:09:15.980427Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 272,
+      "source_file": "verifying-your-account.md"
+    }
+  }
+]

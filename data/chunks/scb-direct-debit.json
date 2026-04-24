@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 223,
+    "text": "# SCB Direct Debit\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel code** | `SCB_DIRECT_DEBIT` |\n| **Currency** | THB |\n| **Minimum amount** | 20 |\n| **Maximum amount** | 700,000 |\n| **User approval flow** | REDIRECT |\n| **Save** | ✅ |\n| **Recurring** | ✅ |\n| **Display merchant name** | Xendit |\n| **Display user name** | ❌ |\n| **Set expiry** | ❌ |\n| **Settlement Time** | Instant |\n| **Refund** | ❌ |\n| **Partial refund** | ❌ |\n| **Multiple partial refund** | ❌ |\n| **Refund validity** | ❌ |\n| **User data required by Bank\\*** | - Mobile Number |\n| **Compatible integration** | Payment API, Payment Session, Subscription, Recurring |\n\n\\*Bank will validate the login credential to the mobile phone number sent during Payment Request\n\n## Account Linking flow\n\nEnd customer select the bank to link on checkout page and process authorization (Account Linking)\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Payment%20session%20-%20DD%20linking.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A41Z&se=2026-04-23T06%3A46%3A41Z&sr=c&sp=r&sig=PVkYjWpJuYBpEovFPD3ZH0EspnW0dxIFmfXhYRVFei0%3D)\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/SCB DD.jpg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A41Z&se=2026-04-23T06%3A46%3A41Z&sr=c&sp=r&sig=PVkYjWpJuYBpEovFPD3ZH0EspnW0dxIFmfXhYRVFei0%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/scb-direct-debit",
+      "title": "SCB Direct Debit",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:45.320623Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 223,
+      "source_file": "scb-direct-debit.md"
+    }
+  }
+]

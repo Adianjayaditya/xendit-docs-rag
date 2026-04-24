@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 115,
+    "text": "# Pay your Xendit invoice\n\nThere are two ways you can choose to **pay your Xendit bills**:\n\n- **Automatic Payment**: Use your Billing Balance to automate bill payments.\n- **On-Demand Payment**: Pay bills manually every month.\n\n## Automatic bill payment\n\nBilling Balance contains funds that you set aside for the purpose of paying your bills. If you have any unpaid bills, the total outstanding amount will be automatically deducted from your Billing Balance at 12:00 am (GMT+7), starting from the oldest one. You can top up your Billing Balance any time.\n\nTo top up your billing balance:\n\n1. Navigate to **Settings >** [**Billing Statements**](https://dashboard.xendit.co/settings/billings)\n2. You’ll see your **Billing Balance** under your Total Outstanding Bill amount. Click **Top Up**\n3. Choose how you’d like to top up. You can transfer from your Xendit Balance or Mandiri Virtual Account (only available for Indonesian businesses)\n\n## On-demand bill payment\n\n1. Navigate to **Settings >** [**Billing Statements**](https://dashboard.xendit.co/settings/billings)\n2. Click the **Pay Bill(s)** button above the billing statements table.\n3. Select the bills you want to pay and click **Next**.\n4. Review the bill summary:\n\n   1. If your Billing Balance covers the amount, click **Pay Now**.\n   2. If insufficient, pay using:\n\n      1. Xendit Balance.\n      2. Mandiri Virtual Account (available only for Indonesian businesses).\n   3. For Mandiri Virtual Account, follow the transfer instructions displayed on the screen.\n5. Confirm your payment in the pop-up by clicking **Confirm**.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/how-to-pay-bills",
+      "title": "Pay your Xendit invoice",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:04:46.565911Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 115,
+      "source_file": "how-to-pay-bills.md"
+    }
+  }
+]

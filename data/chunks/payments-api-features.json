@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 178,
+    "text": "# Features\n\nThis table provides a comprehensive overview of the features included in our Payments API.\n\n| Feature | Description |\n| --- | --- |\n| [Pay](/v1/docs/pay-one-off-payment) | Collect a payment from an end user using `/v3/payment_requests` |\n| [Pay with tokens](/v1/docs/pay-with-tokens) | Collect a payment from an end user using `/v3/payment_requests` and a payment token |\n| [Pay and save](https://xendit-docs.document360.io/docs/pay-and-save) | Collect a payment from an end user and generate a payment token if payment is successful using `/v3/payment_requests` |\n| [Save](/v1/docs/save-payment-information) | Generate a payment token to save an end user’s payment information for future transactions using `/v3/payment_tokens` |\n| [Reusable payment codes](/v1/docs/reusable-payment-codes) | Collect multiple payments via a reusable payment code using `/v3/payment_requests` |\n| Refunds | Return an end user’s paid amount using `/refunds` |\n| Get payment status | Fetch the latest status of a payment request using `/v3/payment_requests` |\n| Merchant-initiated transactions | Collect payments by skipping the end user’s authentication step |\n| Auth & capture | Collect payments by first reserving an amount on the end user’s account, and confirming the final deductible amount later |\n| Partial capture | Collect payments by first reserving an amount on the end user’s account, and confirming a deduction value up to the reserved amount later |\n| PCI compliant card data collection SDK | Collect payments without the need to be PCI certified. Our SDK helps to handle sensitive card information collection on your frontend while keeping your integration compliant |\n| Full PAN integration | Collect payments with full flexibility if you are PCI certified. Our API accepts requests containing full card information and processes them compliantly |\n| Optional 3DS | Increase payment success rates by performing 3DS  only when it is required |\n| Card on file tagging | Increase payment success rates by tagging transactions accurately for proper processing |\n| Card recurring configuration tagging | Increase payment success rates by defining recurring payment schedule accurately for proper processing |\n| Network tokens | Increase payment success rates by creating network tokens via Xendit or passing in network tokens during processing |\n| Installments | Increase payment success rates by allowing installments for card transactions. End users get to break down payments into deferred repayment terms. Payments fees might be different when activated |\n| Promotions administration | Roll out promotional features for your sale or deal day. Our promotion feature helps to facilitate distribution and check eligibility of discounts or vouchers |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/payments-api-features",
+      "title": "Features",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:30:42.102195Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 178,
+      "source_file": "payments-api-features.md"
+    }
+  }
+]

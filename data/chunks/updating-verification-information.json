@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 265,
+    "text": "# Updating Verification Information\n\nYour verification request may be rejected due to missing information, invalid documents, etc. You will receive an Account Holder webhook notification that will give you specific information to update the Account Holder accordingly. To update your merchant’s information, you must update the `Account Holder` object with the parameters that need to be revised.\n\n**Sample callback payload:**\n\nJSON\n\n```\n{\n    \"created\": \"2021-01-01T10:00:00Z\",\n    \"event\": \"account_holder.kyc.status\",\n    \"business_id\": \"5fe2b0137b7d62542fe6d7de\",\n    \"data\": {\n        \"id\": \"57fb4e076fa3fa296b7f5a97\",\n        \"created\": \"2021-01-01T10:00:00Z\",\n        \"updated\": \"2021-01-01T10:00:00Z\",\n        \"kyc\": {\n            \"status\": \"RESUBMISSION_REQUIRED\",\n            \"verified_at\": \"2021-01-01T10:00:00Z\",\n            \"requested_at\": \"2021-01-01T10:00:00Z\",\n            \"failure_reasons\": [\n                {\n                    \"field\": \"website_url\",\n                    \"message\": \"Website is Invalid\"\n                }\n            ]\n        }\n    }\n}\n```\n\nJSON\n\nCopy\n\n## Sample requests\n\n```\nPATCH https://api.xendit.co/account_holders/{id}\n```\n\nPlain text\n\nCopy\n\n## Update website URL\n\n```\n{\n    \"website_url\": \"sample-marketplace.xendit.com\"\n}\n```\n\nJSON\n\nCopy\n\n## Update KYC documents\n\n```\n{\n    \"kyc_documents\": [\n        {\n            \"country\": \"PH\",\n            \"type\": \"LATEST_GIS_DOCUMENT\",\n            \"file_id\": \"63f8719642f5856dc9feje7\"\n        }\n    ]\n}\n```\n\nJSON\n\nCopy",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/updating-verification-information",
+      "title": "Updating Verification Information",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:17:57.870401Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 265,
+      "source_file": "updating-verification-information.md"
+    }
+  }
+]

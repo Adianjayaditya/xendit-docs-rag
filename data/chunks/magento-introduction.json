@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 140,
+    "text": "# Magento\n\nMagento is an open-source e-commerce platform that empowers businesses to establish a robust online presence. It provides tools and features for managing online stores, customizing storefronts, and scaling businesses effectively.\n\nTo enhance your e-commerce experience, the **Xendit Plugins**, available on the Magento Marketplace, enables online payment integration for your Magento store. With a few simple configurations, you can accept a wide range of payment methods through Xendit.\n\n## Payment Flow\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(99).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A22%3A28Z&se=2026-04-23T06%3A33%3A28Z&sr=c&sp=r&sig=DgswYeuSnPfjHWiIrtL0LqAor1KFT55FRowwCrWDyfg%3D \"image(99).png\")\n\nFollow our [installation guide](/v1/docs/wix) to start accepting payments with the Xendit on your Wix store.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/magento-introduction",
+      "title": "Magento",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:22:31.995956Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 140,
+      "source_file": "magento-introduction.md"
+    }
+  }
+]

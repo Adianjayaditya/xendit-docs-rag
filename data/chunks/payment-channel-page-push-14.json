@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 174,
+    "text": "# Paynow QR\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/673dae457c4cc-PayNow 2.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A30%3A34Z&se=2026-04-23T06%3A41%3A34Z&sr=c&sp=r&sig=PTQj%2BRxRgugNCRPjifSE9fTbq2HHbjgUIGRwVCORViI%3D \"BSI.png\")\n\nPayNow QR is an electronic payment method in Singapore that allows users to make instant, direct bank transfers to merchants or other individuals. Payments are made by scanning a unique QR code using any participating bank's mobile banking app or e-wallet app, making it highly interoperable across different financial institutions.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | SGQR |\n| **Display Name** | PayNow QR |\n| **Currency** | SGD |\n| **Country** | SG |\n| **Type** | QR CODE |\n| **Min Amount** | 0.01 |\n| **Max Amount** | 200,000 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | ✓ |\n\n## Payment flow\n\nMobile banking\n\n1. On the checkout page, select **SGQR** as payment method\n2. A QR code will appear on the screen\n3. Open your mobile banking or e-wallet app, then find the **Scan QR Code** feature\n4. Point your phone camera at the QR code\n5. Make sure the payment amount and merchant is correct\n6. Confirm payment\n\n![Mobile app interface showing QR payment details and transaction confirmation for SGD 1.00.](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Paynow QR.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A30%3A34Z&se=2026-04-23T06%3A41%3A34Z&sr=c&sp=r&sig=PTQj%2BRxRgugNCRPjifSE9fTbq2HHbjgUIGRwVCORViI%3D)\n\nPayNow QR Payment Flow",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/payment-channel-page-push-14",
+      "title": "Paynow QR",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:30:37.860293Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 174,
+      "source_file": "payment-channel-page-push-14.md"
+    }
+  }
+]

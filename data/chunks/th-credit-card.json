@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 252,
+    "text": "# Cards\n\nThe annual value of card transactions in the Thailand cards and payments market is estimated to be USD $62.5 billion in 2023 and will grow at a CAGR of more than 7% during 2023-2027.\n\nAbout 30% of Thai cards are credit cards, the rest are ATM and Debit cards. \\\nSource: [Bank of Thailand](https://app.bot.or.th/BTWS_STAT/statistics/BOTWEBSTAT.aspx?reportID=685&language=ENG)\n\nCredit card volumes have reached over 1 Billion USD in 2024 in Thailand and are expected to grow to even further in 2025.\n\n---\n\n## Features & Requirements\n\n|  |  |\n| --- | --- |\n| **Channel Code** | CARDS |\n| **Display Name** | Cards |\n| **Currency** | THB |\n| **Country** | TH |\n| **Type** | CARDS |\n| **Min Amount** | 1 |\n| **Max Amount** | 700,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | ✓ |\n| **Partial Capture** | ✓ |\n| **Multiple Partial Capture** | ✓ |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT, MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.166 |\n| **Payment Token Validity (years)** | CARD EXPIRY |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+3 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 365 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR, SWITCHER |\n\n## Payment flow\n\n[null](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Credit%20Cards%20TH.mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A35%3A50Z&se=2026-04-23T07%3A35%3A50Z&sr=c&sp=r&sig=354FpqvNaH0Ly9Skwr7bzczLBZ88dV3VpICOiUbDmUo%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/th-credit-card",
+      "title": "Cards",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:35:54.333109Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 252,
+      "source_file": "th-credit-card.md"
+    }
+  }
+]

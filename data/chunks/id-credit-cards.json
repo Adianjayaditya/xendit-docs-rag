@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 116,
+    "text": "# Cards\n\nCredit cards are a versatile and secure payment channel that allows customers to pay directly using their card details. Supported by major international card networks such as Visa, Mastercard, American Express (Amex), and JCB, this payment method is highly trusted and recognized for its reliability and convenience.\n\nWhen customers choose to pay with a card at checkout, they can simply enter their card details, and the payment is securely processed. You’ll receive real-time confirmation of the transaction, providing a seamless and efficient experience for both you and your customers.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | CARDS |\n| **Display Name** | Cards |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | CARDS |\n| **Min Amount** | 5,000.00 |\n| **Max Amount** | 200,000,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | ✓ |\n| **Partial Capture** | ✓ |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT, MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.166 |\n| **Payment Token Validity (years)** | CARD EXPIRY |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+5 CALENDAR DAYS |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 365 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR, SWITCHER |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/id-credit-cards",
+      "title": "Cards",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:27:13.346961Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 116,
+      "source_file": "id-credit-cards.md"
+    }
+  }
+]

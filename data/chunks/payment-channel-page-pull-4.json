@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 172,
+    "text": "# GrabPay\n\nGrabPay is a digital wallet developed by Grab, the largest ride-sharing service in Southeast Asia, which has also branched into delivery, mobile payments, and financial services. The app, which serves over 100 million users, allows shoppers to link their credit or debit cards to their GrabPay wallet for transactions.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | GRABPAY |\n| **Display Name** | GrabPay |\n| **Currency** | MYR |\n| **Country** | MY |\n| **Type** | EWALLET |\n| **Min Amount** | 1 |\n| **Max Amount** | 1,500.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.58 |\n| **Payment Token Validity (years)** | 10 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | ✓ |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 365 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\nTo make a payment with GrabPay, users are redirected from your website or app to the GrabPay login page. They authenticate themselves using their phone number and a one-time password (OTP) sent to their phone by Grab. After authentication, users can choose from the available payment methods and confirm their transaction.\n\n- Redirection\n\n  [](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/GrabPay%20-%20redirection%20-%20mobile%20(2).mp4?sv=2022-11-02&spr=https&st=2026-04-23T06%3A31%3A50Z&se=2026-04-23T07%3A31%3A50Z&sr=c&sp=r&sig=1%2FJytvBEMkvLjZwIl4P5ioX3joU8PfQmJdkNzW4SV0U%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/payment-channel-page-pull-4",
+      "title": "GrabPay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:31:55.281374Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 172,
+      "source_file": "payment-channel-page-pull-4.md"
+    }
+  }
+]

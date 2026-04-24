@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 74,
+    "text": "# Convert balance (Beta)\n\n> This feature is currently only available for [Global Accounts](/docs/available-features).\n\nOur [Global Account](/docs/available-features) enables you to make currency conversions for your business operations. Conversions may be standalone, or as part of a cross border payout flow. [Please check which currency balances are eligible for conversion or a cross border payout](/docs/documentation-template-2).\n\n## Features\n\n- Conversions can be created on the dashboard\n- Conversions are instant and available 24/7, every day of the year\n- We provide transparent rates for each conversion\n- Convert at competitive rates between exotic currencies in Southeast Asia\n\n## Use cases\n\n| Use case | Example fund flow |\n| --- | --- |\n| SME business with regional suppliers and employees | Deposit funds in USD, convert to IDR and PHP for supplier and payroll payments in Indonesia and the Philippines |\n| Enterprise with operations in Southeast Asia and global HQ | Accept funds in Philippines and Thailand, convert funds to USD, withdraw to HQ in USD for payroll and other expense payments |\n| SEA business with suppliers overseas | Deposit funds in PHP, convert to USD and payout USD to suppliers overseas |\n\n## How to convert\n\nConverting between currency balances with your Xendit [Global Account](/docs/available-features) involves two steps:\n\n1. [Top up your balance](/docs/documentation-template-6)\n2. Create a conversion\n\n## Converting between currencies\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfxLIZOE0q3cPCYHvuOjB_ZXF6yz9-mBsMMbM-nGu5e_A0L1VdMU4PFZv2jHPDDxei_DQA8QGYrXdkvuzgdvZMsjCJE91F12TJZ1HP3uDD0dbgsxkwd77O8L8iFaq3N3hfj3JqnMg?key=-sCRALoqPGXPKm_M4fvtqw)\n\nTo convert between currencies directly from the Dashboard:\n\n1. Navigate to your homepage or your Balance page\n2. Click **Convert**\n3. Choose the source and destination currency balances for conversion. Your destination currency must be one of your open currency balances.\n4. Enter the amount you want to convert\n\n   1. You may specify either the source amount or the destination amount.\n   2. You’ll be quoted a rate for that currency pair, as well as the amount you’ll receive. The rate refreshes after 30 seconds.\n5. Click **Save & Next**\n6. Review your Conversion details, then click **Convert**\n\n   > Exchange rate may update automatically\n   >\n   > The exchange rate may have been updated automatically with the latest rate after 30 seconds. By clicking Convert, you are accepting the updated rate.\n7. Enter your PIN to confirm the conversion. If you’ve not created a PIN before, you’ll be prompted to create a new PIN at this stage.\n8. You’ll immediately receive the converted amount in your destination currency balance upon completion of the flow. Xendit charges no fees for conversion and uses market competitive FX rates.\n9. You may track your conversions in the **Transactions** page. You may also download our [reports](https://xendit-docs.document360.io/docs/reports-overview) to reconcile your conversions.",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/convert-balance",
+      "title": "Convert balance (Beta)",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:04:19.452028Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 74,
+      "source_file": "convert-balance.md"
+    }
+  }
+]

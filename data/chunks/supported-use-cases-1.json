@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 247,
+    "text": "# Supported Use Cases\n\nAll flows described below work with both Payment Session interfaces either Payment Link or Xendit Components.\n\nEach flow represents a different checkout intent, such as collecting a one-time payment, saving a payment method, or doing both in a single interaction.\n\nYou choose the flow by setting the appropriate `session_type` when creating a Payment Session.\n\n## One-Time Payment (`PAY`)\n\nThis mode is used for single payment where customer is present, choose payment method and pays immediately. No payment method is stored after the transaction is completed.\n\n**User Journey**\n\n1. **Checkout**: Customer clicks “Buy Now” on your site\n2. **Selection**: Customer is presented with available payment methods\n3. **Payment**: Customer process the required actions to authorize the payment\n4. **Completion**: Customer is redirected back to your site page\n\nIt is best for business with one off transaction (e.g., one-off purchases, e-commerce checkouts, event tickets or digital goods)\n\n## Save Payment Method (`SAVE`)\n\nUse this mode when you want to securely save a customer’s payment method (tokenization) **without** charging them immediately. This is often done during sign-up or inside a “My Account” settings page in your application.\n\n**User Journey**\n\n1. **Setup**: Customer clicks “Add Payment Method” in their profile\n2. **Verification**: Customer enter card/account details and proceed the verification process based on the payment method\n3. **Tokenization**: Xendit securely stores the payment method details and returns `payment_token_id` to you\n4. **Ready**: Customer is ready to make future purchases later\n\nIt is best for building a frictionless subscription onboarding, auto-debit setup, or saving cards for faster future checkout.\n\n## Pay and Save (`PAY`)\\*\n\nThis flow uses the `PAY`session type and allows you to optionally or mandatorily save the customer’s payment method during a payment - the behavior is controlled by the `allow_save_payment_method` parameter when creating a Payment Session.\n\n**User Journey**\n\n1. **Transaction:** Customer pays for their first order.\n2. **Consent:** A checkbox to optionally save the payment method, or a forced pay and save depending on your use case\n\n   1. Find more details on these differences in [here](/v1/docs/pay-and-save-2#how-to-integrate)\n3. **Execution:** Xendit processes the payment **and** generates payment token simultaneously.\n4. **Outcome:** The current order is paid, and Xendit securely stores the payment method details and return `payment_token_id` to you. You can use the `payment_token_id` for subsequent transaction either Merchant-initiated or Customer-initiated flow using [Payment API integration](/v1/docs/pay-with-tokens).\n\nSee the integration guideline [here](https://docs.xendit.co/docs/payment-sessions-overview).",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/supported-use-cases-1",
+      "title": "Supported Use Cases",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:20:39.346825Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 247,
+      "source_file": "supported-use-cases-1.md"
+    }
+  }
+]

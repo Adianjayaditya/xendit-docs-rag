@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 137,
+    "text": "# LBC\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/LBC Express Logo.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A44Z&se=2026-04-23T07%3A10%3A44Z&sr=c&sp=r&sig=BRUDfUltyehVKwfISAt3HUbM4WLsh7WEieiasEGXs%2Fc%3D \"image(23).png\")\n\nLBC Express is a Philippine courier company offering a wide range of services, including package delivery, money remittance, and cargo shipping, with an extensive domestic and international network. LBC, with its extensive network of branches across the Philippines, allows customers to pay for online purchases in cash by presenting a transaction reference number at any LBC location.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | LBC |\n| **Display Name** | LBC |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | OVER THE COUNTER |\n| **Min Amount** | 50 |\n| **Max Amount** | 200,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | ✓ |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | ✓ |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | - |\n| **Partial Refund** | - |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | - |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## How to pay\n\n1. Visit your nearest LBC branch before payment code expires\n2. Tell the cashier/staff that you will be making a PayCollect payment to XENDIT\n3. You will receive a `Transaction Form` Slip\\\n\n   Transaction Form\n\n   Please fill out the following information:\n\n   1. Date: Date of transaction\n   2. Name: Your name\n   3. Mobile Number: Your mobile number\n   4. Amount to Send: Amount due of your payment code\n   5. Write your payment code at the upper right of the form (same field of Date)\n\n      ![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2025-01-05 at 09.53.40.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A44Z&se=2026-04-23T07%3A10%3A44Z&sr=c&sp=r&sig=BRUDfUltyehVKwfISAt3HUbM4WLsh7WEieiasEGXs%2Fc%3D)\n4. Give the filled out slip to the cashier/staff with your payment (cash only)\n5. You will receive a receipt as proof of payment\\\n   ![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Screenshot 2025-01-05 at 09.55.46.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A44Z&se=2026-04-23T07%3A10%3A44Z&sr=c&sp=r&sig=BRUDfUltyehVKwfISAt3HUbM4WLsh7WEieiasEGXs%2Fc%3D)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/lbc",
+      "title": "LBC",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:34:48.359107Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 137,
+      "source_file": "lbc.md"
+    }
+  }
+]

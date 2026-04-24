@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 232,
+    "text": "# ShopeePay\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(90).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A40Z&se=2026-04-23T07%3A08%3A40Z&sr=c&sp=r&sig=xfBF%2BYsprcKfPQLUsC9npO%2BFcWjDCHj2CxJTdzj%2Bmw4%3D \"image(90).png\")\n\nShopeePay is the integrated digital wallet of Shopee, one of the leading e-commerce platforms in the Philippines. It enables users to make seamless transactions within the Shopee ecosystem and beyond, offering a fast, secure, and convenient way to pay for online purchases, bills, and in-store transactions. ShopeePay is especially popular due to frequent cashback offers, discounts, and free shipping vouchers, which drive user engagement and loyalty.\n\nShopeePay is not only a preferred payment method on Shopee but is also widely accepted by partner merchants for in-store and online payments. Its rising adoption makes it a critical payment option for businesses aiming to cater to digital-savvy consumers in the Philippines.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | SHOPEEPAY |\n| **Display Name** | ShopeePay |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | EWALLET |\n| **Min Amount** | 1 |\n| **Max Amount** | 100,000.00 |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL, QR CODE |\n| **Mobile Support** | DEEPLINK URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 0.25 |\n| **Payment Token Validity (years)** | 5 |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | ✓ |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 90 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/shopeepay",
+      "title": "ShopeePay",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:32:43.492218Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 232,
+      "source_file": "shopeepay.md"
+    }
+  }
+]

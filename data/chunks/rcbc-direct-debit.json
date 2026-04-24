@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 212,
+    "text": "# RCBC Direct Debit\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/RCBC_logo.svg.png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A32%3A27Z&se=2026-04-23T07%3A08%3A27Z&sr=c&sp=r&sig=yDzfj1b6d5VlCvisBH2QsXa8JM5ev3UWN3kXD%2BRI1tI%3D)\n\nThe Rizal Commercial Banking Corporation (RCBC) is one of the leading banks in the Philippines, known for its innovative digital banking solutions. RCBC Online Banking allows customers to access a full suite of banking services, including fund transfers, bill payments, and online purchases, all from their desktop or mobile devices.\n\nRCBC’s online banking services have grown significantly in popularity, driven by the bank's commitment to digital transformation and customer-centric solutions. For businesses, offering RCBC Online Banking as a payment option opens opportunities to tap into the bank's wide user base of individuals who prefer direct online bank transactions.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | RCBC\\_DIRECT\\_DEBIT |\n| **Display Name** | RCBC Direct Debit |\n| **Currency** | PHP |\n| **Country** | PH |\n| **Type** | ONLINE BANKING |\n| **Min Amount** | 0.01 |\n| **Max Amount** |  |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | - |\n| **Payment Token Validity (years)** | INDEFINITE |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+1 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | 30 |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR, SWITCHER |\n\n## Payment flow\n\n##",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/rcbc-direct-debit",
+      "title": "RCBC Direct Debit",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:32:31.650921Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 212,
+      "source_file": "rcbc-direct-debit.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 50,
+    "text": "# Cards\n\nAccepting credit cards is essential for reaching Singapore’s digitally active customers. Shoppers in Singapore rely on cards for everyday spending, online checkout, travel, and cross-border purchases, and they expect a smooth card experience on every site. By enabling card acceptance, you unlock higher conversion, larger order values and global customer reach.\\\n\\\nYou also gain support for subscriptions, saved cards, refunds, and advanced fraud controls. Enabling cards through our platform ensures you offer the payment method customers trust most, without adding operational complexity to your integration.\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | CARDS |\n| **Display Name** | Cards |\n| **Currency** | SGD, USD |\n| **Country** | SG |\n| **Type** | CARDS |\n| **Min Amount** | 1.00 |\n| **Max Amount** | 1,000.00 (can be increased upon request) |\n| **User Approval Flow** | REDIRECT, SKIP |\n| **Reusable Payment Code** | - |\n| **Save** | ✓ |\n| **Merchant Initiated Transaction** | ✓ |\n| **Auth & Capture** | ✓ |\n| **Partial Capture** | ✓ |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Display Merchant Name** | XDT\\* - MERCHANT |\n| **Payment Request Expiry (hours)** | 0.166 |\n| **Payment Token Validity (years)** | CARD EXPIRY |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+3 BUSINESS DAYS |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 180 |\n| **Payment Link** | ✓ |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/cards-2",
+      "title": "Cards",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:29:38.937068Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 50,
+      "source_file": "cards-2.md"
+    }
+  }
+]

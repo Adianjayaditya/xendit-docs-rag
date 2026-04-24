@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 210,
+    "text": "# QRIS\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/qris-logo.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A48Z&se=2026-04-23T06%3A39%3A48Z&sr=c&sp=r&sig=3b6nKO%2BYGFwTSgrXi7gPLwsvTI6K0mE96yQZHxNah%2Bg%3D)QR code payments in Indonesia uses QRIS (Quick Response Code Indonesian Standard), an Indonesian QR code standard developed by Bank Indonesia (BI) and Indonesian Payment System Association for cashless payments in Indonesia.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | QRIS |\n| **Display Name** | QRIS |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | QR CODE |\n| **Min Amount** | 1 |\n| **Max Amount** | 10,000,000.00 |\n| **User Approval Flow** | PRESENT TO CUSTOMER |\n| **Reusable Payment Code** | ✓ |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | - |\n| **Mobile Support** | - |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | MERCHANT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 48 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | - |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | ✓ |\n| **Refund Validity (days)** | 7\\* |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/image(37).png?sv=2022-11-02&spr=https&st=2026-04-23T06%3A28%3A48Z&se=2026-04-23T06%3A39%3A48Z&sr=c&sp=r&sig=3b6nKO%2BYGFwTSgrXi7gPLwsvTI6K0mE96yQZHxNah%2Bg%3D \"image(37).png\")\n\n1. On the checkout page, select **QRIS** as payment method\n2. A QR code will appear on the screen\n3. Open your mobile banking or e-wallet app, then find the **Scan QR Code** feature\n4. Point your phone camera at the QR code\n5. Make sure the payment amount and merchant is correct\n6. Confirm payment\n\n## Limitations\n\nThe QRIS refund process is limited to the following issuers:\n\n| **Issuer** | **Refund full amount & within 24 hours of payment completion** | **Refund full amount & after 24 hours of payment completion** | **Partial refund** |\n| --- | --- | --- | --- |\n| DANA | ✅ | ✅ | ✅ |\n| ShopeePay | ✅ | ✅ | ✅ |\n| OVO | ✅ | ✅ | ✅ |\n| Gopay | ✅ | ✅ | ✅ |\n| CIMB | ❌ | ✅ | ✅ |\n| Permata | ✅ | ✅ | ✅ |\n| Jenius / SMBC | ✅ | ✅ | ✅ |\n| BSI | ✅ | ✅ | ✅ |",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/qris",
+      "title": "QRIS",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:28:55.811120Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 210,
+      "source_file": "qris.md"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "chunk_index": 89,
+    "text": "# Login\n\n![](https://cdn.document360.io/static/images/custompages/Login-1.svg)\n\n![](https://cdn.document360.io/logo/217abc43-8677-41fb-a81d-fceeb1fa0358/3f0f9fc38c9c4bd6a24000c81b882990-logo_dark.png)\n\nEmail\n\nPassword\n\nRemember me\n\n[Forgot password?](/Account/ForgotPassword?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DKbSiteAngular%26scope%3Dopenid%2520email%2520profile%2520kbSiteAdmin%2520offline_access%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdocs.xendit.co%252Fsignin-oidc%26state%3Dreturn_to%253D%25252Fdocs%25252Fdocumentation-template-2%26session%3Dtrue%26property%3Duser%26defaultStrategy%3Doidc%26code_challenge%3DHH6_jF-c6uE0SP7w5-SjUs0C9kzrYQQhDQR3MynF9Rs%26code_challenge_method%3DS256)\n\nLogin\n\nor\n\n[![](https://cdn.document360.io/static/images/google.png)\nLogin with Google account](/SSOlogin/217abc43-8677-41fb-a81d-fceeb1fa0358-snqx?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DKbSiteAngular%26scope%3Dopenid%2520email%2520profile%2520kbSiteAdmin%2520offline_access%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdocs.xendit.co%252Fsignin-oidc%26state%3Dreturn_to%253D%25252Fdocs%25252Fdocumentation-template-2%26session%3Dtrue%26property%3Duser%26defaultStrategy%3Doidc%26code_challenge%3DHH6_jF-c6uE0SP7w5-SjUs0C9kzrYQQhDQR3MynF9Rs%26code_challenge_method%3DS256)\n\nDon't have an account?\n[Sign up](/Account/SelfRegister?returnurl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DKbSiteAngular%26scope%3Dopenid%2520email%2520profile%2520kbSiteAdmin%2520offline_access%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Fdocs.xendit.co%252Fsignin-oidc%26state%3Dreturn_to%253D%25252Fdocs%25252Fdocumentation-template-2%26session%3Dtrue%26property%3Duser%26defaultStrategy%3Doidc%26code_challenge%3DHH6_jF-c6uE0SP7w5-SjUs0C9kzrYQQhDQR3MynF9Rs%26code_challenge_method%3DS256)",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/documentation-template-2",
+      "title": "Login",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:08:34.290866Z'",
+      "source": "https://docs.xendit.co",
+      "chunk_index": 89,
+      "source_file": "documentation-template-2.md"
+    }
+  }
+]

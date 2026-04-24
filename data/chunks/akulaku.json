@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 9,
+    "text": "# Akulaku\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/akulaku-logo.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A27%3A30Z&se=2026-04-23T07%3A03%3A30Z&sr=c&sp=r&sig=tCDlyG0O8wL2YI7trzaVy1rAdABomsKvgnnGXWzvEqY%3D)Akulaku is a leading banking and digital finance platform in Southeast Asia, with a strong presence in Indonesia. Founded in 2016, Akulaku started as a consumer lending platform and has since expanded its services to include e-commerce, digital banking, and wealth management. Akulaku aims to provide accessible financial services to underserved customers in emerging markets, particularly those who lack access to traditional banking.\n\nThe platform offers a range of products, including virtual credit cards, installment loans, and online shopping, all accessible through its mobile app. Akulaku's innovative approach to financial services has made it a popular choice for Indonesians seeking convenient and affordable financial solutions.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| **Channel Code** | AKULAKU |\n| **Display Name** | Akulaku |\n| **Currency** | IDR |\n| **Country** | ID |\n| **Type** | PAYLATER |\n| **Min Amount** | 1,000.00 |\n| **Max Amount** | 25,000,000.00 |\n| **User Approval Flow** | REDIRECT |\n| **Reusable Payment Code** | - |\n| **Save** | - |\n| **Merchant Initiated Transaction** | - |\n| **Auth & Capture** | - |\n| **Partial Capture** | - |\n| **Multiple Partial Capture** | - |\n| **Desktop Support** | WEB URL |\n| **Mobile Support** | MOBILE WEB URL |\n| **Custom Payment Code** | - |\n| **Display Merchant Name** | XENDIT |\n| **Display User Name** | - |\n| **Set Expiry** | - |\n| **Payment Request Expiry (hours)** | 24 |\n| **Payment Token Validity (years)** | - |\n| **Payment Processing Time (hours)** | INSTANT |\n| **Settlement Time** | T+2 CALENDAR DAYS\\* |\n| **Installments** | ✓ |\n| **Refund** | ✓ |\n| **Partial Refund** | ✓ |\n| **Multiple Partial Refund** | - |\n| **Refund Validity (days)** | INDEFINITE |\n| **Payment Link** | ✓ |\n| **Fund Flow** | AGGREGATOR |\n\n## Payment flow",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/akulaku",
+      "title": "Akulaku",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:27:34.883249Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 9,
+      "source_file": "akulaku.md"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "chunk_index": 67,
+    "text": "# Cebuana\n\n![](https://cdn.document360.io/217abc43-8677-41fb-a81d-fceeb1fa0358/Images/Documentation/Cebuana Lhuillier Logo.svg?sv=2022-11-02&spr=https&st=2026-04-23T06%3A34%3A18Z&se=2026-04-23T06%3A45%3A18Z&sr=c&sp=r&sig=mBMgPKkwlDtulZy3Kf8%2FmVvJ1GbpSYnaaZC%2Byaru%2FE4%3D)\n\nCebuana Lhuillier is a popular payment method in the Philippines, offering over 2,500 branches nationwide. Cebuana Lhuillier offers a reliable, cash-based payment option for customers across the Philippines, making it an ideal choice for businesses targeting cash-paying consumers.\n\n---\n\n## Features\n\n|  |  |\n| --- | --- |\n| Channel Code | `CEBUANA` |\n| Currency | PHP |\n| Minimum Amount | 1.00 |\n| Maximum Amount | 30,000.00 |\n| User Approval Flow | PRESENT TO CUSTOMER |\n| Reusable Payment Code | ✅ |\n| Custom Payment Code | ✅ |\n| Display Merchant Name | XENDIT |\n| Display User Name | ❌ |\n| Set Expiry | ✅ |\n| Settlement Time (hours) | T+2 BUSINESS DAYS |\n| Refund | ❌ |\n| Partial Refund | ❌ |\n| Multiple Partial Refund | ❌ |\n| Refund Validity (days) | N/A |\n| Compatible integration | Payment API, Payment Link |\n\n## Additional features\n\n<something like paylater or installment or auth and capture>\n\n## How to pay\n\n##",
+    "metadata": {
+      "url": "https://docs.xendit.co/docs/cebuana",
+      "title": "Cebuana",
+      "description": "''",
+      "section": "docs",
+      "scraped_at": "'2026-04-23T06:34:22.297647Z'",
+      "source": "https://docs.xendit.co",
+      "breadcrumbs": "",
+      "chunk_index": 67,
+      "source_file": "cebuana.md"
+    }
+  }
+]
