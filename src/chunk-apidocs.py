@@ -1,12 +1,3 @@
-"""
-xendit_chunker.py
------------------
-Chunker untuk dokumentasi Xendit hasil scraping (.md files).
-Menghasilkan chunk dengan contextual header injection dan metadata lengkap.
-
-Output: List of dicts, siap di-embed atau disimpan ke vector store.
-"""
-
 import re
 import json
 import yaml
@@ -35,10 +26,6 @@ class Chunk:
         return asdict(self)
 
 def parse_frontmatter(content: str) -> tuple[dict, str]:
-    """
-    Pisahkan YAML frontmatter dari body markdown.
-    Return (metadata_dict, body_string).
-    """
     if not content.startswith("---"):
         return {}, content
 
@@ -57,7 +44,6 @@ def parse_frontmatter(content: str) -> tuple[dict, str]:
     return meta, body
 
 def detect_section(meta: dict, filepath: Path) -> str:
-    """Deteksi apakah file ini apidocs atau docs biasa."""
     if meta.get("section"):
         return meta["section"]
     url = meta.get("url", "")
@@ -66,13 +52,6 @@ def detect_section(meta: dict, filepath: Path) -> str:
     return "docs"
 
 class ApiDocsChunker:
-    """
-    Memecah file apidocs .md menjadi chunk-chunk:
-    1. overview      — method, path, deskripsi singkat
-    2. request_params — header/path/body params
-    3. response_200  — response sukses (+ sub-chunks jika ada nested object panjang)
-    4. response_error — response 4xx / 5xx
-    """
     NESTED_SPLIT_THRESHOLD = 12
 
     def __init__(self, meta: dict, body: str, filepath: Path):
@@ -85,7 +64,6 @@ class ApiDocsChunker:
         self.section = detect_section(meta, filepath)
 
     def _extract_endpoint(self) -> tuple[str, str]:
-        """Ambil HTTP method dan path dari baris ## Endpoint atau backtick."""
         m = re.search(r"`(GET|POST|PUT|PATCH|DELETE|HEAD)\s+(/[^\`]+)`", self.body)
         if m:
             return m.group(1), m.group(2).strip()
@@ -233,11 +211,6 @@ class ApiDocsChunker:
         return sections
 
     def _extract_nested_objects(self, response_body: str) -> dict[str, str]:
-        """
-        Temukan nested object yang panjang (> threshold baris).
-        Heuristik: cari pola "- **field** (object ...)" diikuti sub-fields.
-        Return dict {field_name: content_block}.
-        """
         nested = {}
 
         pattern = re.compile(
@@ -269,12 +242,6 @@ class ApiDocsChunker:
         return result
 
 class DocsChunker:
-    """
-    Untuk file docs non-API: chunk per heading ##.
-    Setiap chunk mendapat 1-2 kalimat terakhir dari chunk sebelumnya
-    sebagai context overlap.
-    """
-
     OVERLAP_SENTENCES = 2
 
     def __init__(self, meta: dict, body: str, filepath: Path):
@@ -340,10 +307,6 @@ def chunk_file(filepath: Path) -> list[Chunk]:
 
 
 def chunk_directory(docs_dir: Path, output_file: Optional[Path] = None) -> list[dict]:
-    """
-    Proses semua file .md dalam direktori (rekursif).
-    Return list of chunk dicts. Opsional simpan ke JSONL.
-    """
     all_chunks = []
     md_files = sorted(docs_dir.rglob("*.md"))
 
