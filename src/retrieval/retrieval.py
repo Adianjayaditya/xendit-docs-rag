@@ -1,12 +1,9 @@
 from pinecone import Pinecone
 import os
 
-def init_pinecone():
+def retrieve(query, top_k=5):
     pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
     index = pc.Index(os.getenv("INDEX_HOST"))
-    return pc, index
-
-def retrieve(pc, index, query, top_k=5):
     embedding = pc.inference.embed(
         model="llama-text-embed-v2",
         inputs=[
