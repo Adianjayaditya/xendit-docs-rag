@@ -13,8 +13,8 @@ INDEX_HOST = os.getenv("INDEX_HOST")
 pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index(INDEX_HOST)
 
-BASE_DIR = Path(__file__).parent.parent
-CHUNKS_FILE = BASE_DIR / "data" / "chunks" / "docs" / "docs_chunks.jsonl"
+BASE_DIR = Path(__file__).parent.parent.parent
+CHUNKS_FILE = BASE_DIR / "data" / "chunks" / "apidocs" / "apidocs_chunks.jsonl"
 
 def generate_id(chunk):
     raw = f"{chunk['source_file']}::{chunk['chunk_index']}"

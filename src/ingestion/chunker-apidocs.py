@@ -1,3 +1,12 @@
+"""
+xendit_chunker.py
+-----------------
+Chunker untuk dokumentasi Xendit hasil scraping (.md files).
+Menghasilkan chunk dengan contextual header injection dan metadata lengkap.
+
+Output: List of dicts, siap di-embed atau disimpan ke vector store.
+"""
+
 import re
 import json
 import yaml
@@ -10,22 +19,24 @@ class Chunk:
     text: str
     source_url: str
     product: str
-    section: str                 
+    section: str              
     title: str
     endpoint_path: Optional[str] 
     http_method: Optional[str]
-    chunk_type: str              
-    chunk_index: int         
+    chunk_type: str   
+    chunk_index: int 
     source_file: str
 
-    parent_chunk_type: Optional[str] = None
     status_code: Optional[str] = None   
-    nested_field: Optional[str] = None  
 
     def to_dict(self) -> dict:
         return asdict(self)
 
 def parse_frontmatter(content: str) -> tuple[dict, str]:
+    """
+    Pisahkan YAML frontmatter dari body markdown.
+    Return (metadata_dict, body_string).
+    """
     if not content.startswith("---"):
         return {}, content
 
@@ -44,14 +55,24 @@ def parse_frontmatter(content: str) -> tuple[dict, str]:
     return meta, body
 
 def detect_section(meta: dict, filepath: Path) -> str:
+    """Deteksi apakah file ini apidocs atau docs biasa."""
     if meta.get("section"):
         return meta["section"]
+    # fallback: cek path atau url
     url = meta.get("url", "")
     if "apidocs" in url or "apidocs" in str(filepath):
         return "apidocs"
     return "docs"
 
 class ApiDocsChunker:
+    """
+    Memecah file apidocs .md menjadi chunk-chunk:
+    1. overview      — method, path, deskripsi singkat
+    2. request_params — header/path/body params
+    3. response_200  — response sukses (+ sub-chunks jika ada nested object panjang)
+    4. response_error — response 4xx / 5xx
+    """
+
     NESTED_SPLIT_THRESHOLD = 12
 
     def __init__(self, meta: dict, body: str, filepath: Path):
@@ -64,6 +85,7 @@ class ApiDocsChunker:
         self.section = detect_section(meta, filepath)
 
     def _extract_endpoint(self) -> tuple[str, str]:
+        """Ambil HTTP method dan path dari baris ## Endpoint atau backtick."""
         m = re.search(r"`(GET|POST|PUT|PATCH|DELETE|HEAD)\s+(/[^\`]+)`", self.body)
         if m:
             return m.group(1), m.group(2).strip()
@@ -86,11 +108,12 @@ class ApiDocsChunker:
         chunks: list[Chunk] = []
         method, path = self._extract_endpoint()
         ctx_header = f"[{self.title}] {method} {path}\n" if path else f"[{self.title}]\n"
+
         sections = self._split_into_sections(self.body)
 
         overview_lines = []
         param_lines = []
-        response_sections: dict[str, list[str]] = {}
+        response_sections: dict[str, list[str]] = {}  # key: "200", "4xx", "5xx"
 
         PARAM_KEYWORDS = [
             "parameter", "param",
@@ -103,7 +126,6 @@ class ApiDocsChunker:
 
         for sec_title, sec_body in sections:
             tl = sec_title.lower().strip()
-
             if re.match(r"^2\d\d", sec_title.strip()):
                 response_sections.setdefault("200", []).append(sec_body.strip())
                 continue
@@ -115,6 +137,7 @@ class ApiDocsChunker:
             if any(kw in tl for kw in SECURITY_KEYWORDS):
                 param_lines.append(f"### {sec_title}\n{sec_body.strip()}")
                 continue
+
             if any(kw in tl for kw in PARAM_KEYWORDS):
                 param_lines.append(f"### {sec_title}\n{sec_body.strip()}")
                 continue
@@ -145,48 +168,22 @@ class ApiDocsChunker:
 
         idx = 2
         for code, bodies in response_sections.items():
-            full_body = "\n\n".join(bodies)
-            label = "200 OK" if code == "200" else "Error (4xx/5xx)"
+            full_body   = "\n\n".join(bodies)
+            label       = "200 OK" if code == "200" else "Error (4xx/5xx)"
             status_code = "200" if code == "200" else "4xx_5xx"
-            chunk_type = "response_200" if code == "200" else "response_error"
+            chunk_type  = "response_200" if code == "200" else "response_error"
 
-            nested = self._extract_nested_objects(full_body)
-
-            if nested:
-                trimmed_body = self._remove_nested_objects(full_body, nested)
-                main_text = (
-                    f"{ctx_header}Response {label} — {self.title}\n\n"
-                    + trimmed_body.strip()
-                )
-                main_meta = self._base_meta(chunk_type, idx, method, path)
-                main_meta["status_code"] = status_code
-                chunks.append(Chunk(text=main_text.strip(), **main_meta))
-                idx += 1
-
-                for nested_name, nested_body in nested.items():
-                    nested_text = (
-                        f"{ctx_header}Response {label} — nested object `{nested_name}` — {self.title}\n\n"
-                        + f"Object `{nested_name}` adalah bagian dari response {method} {path}:\n\n"
-                        + nested_body.strip()
-                    )
-                    nested_meta = self._base_meta("response_nested", idx, method, path)
-                    nested_meta["status_code"] = status_code
-                    nested_meta["parent_chunk_type"] = chunk_type
-                    nested_meta["nested_field"] = nested_name
-                    chunks.append(Chunk(text=nested_text.strip(), **nested_meta))
-                    idx += 1
-
-            else:
-                resp_text = (
-                    f"{ctx_header}Response {label} — {self.title}\n\n"
-                    + full_body.strip()
-                )
-                resp_meta = self._base_meta(chunk_type, idx, method, path)
-                resp_meta["status_code"] = status_code
-                chunks.append(Chunk(text=resp_text.strip(), **resp_meta))
-                idx += 1
+            resp_text = (
+                f"{ctx_header}Response {label} — {self.title}\n\n"
+                + full_body.strip()
+            )
+            resp_meta = self._base_meta(chunk_type, idx, method, path)
+            resp_meta["status_code"] = status_code
+            chunks.append(Chunk(text=resp_text.strip(), **resp_meta))
+            idx += 1
 
         return chunks
+
 
     def _extract_intro(self, body: str) -> str:
         """Ambil teks sebelum heading pertama (##)."""
@@ -211,6 +208,11 @@ class ApiDocsChunker:
         return sections
 
     def _extract_nested_objects(self, response_body: str) -> dict[str, str]:
+        """
+        Temukan nested object yang panjang (> threshold baris).
+        Heuristik: cari pola "- **field** (object ...)" diikuti sub-fields.
+        Return dict {field_name: content_block}.
+        """
         nested = {}
 
         pattern = re.compile(
@@ -241,7 +243,14 @@ class ApiDocsChunker:
             )
         return result
 
+
 class DocsChunker:
+    """
+    Untuk file docs non-API: chunk per heading ##.
+    Setiap chunk mendapat 1-2 kalimat terakhir dari chunk sebelumnya
+    sebagai context overlap.
+    """
+
     OVERLAP_SENTENCES = 2
 
     def __init__(self, meta: dict, body: str, filepath: Path):
@@ -294,6 +303,8 @@ class DocsChunker:
 
         return chunks
 
+
+
 def chunk_file(filepath: Path) -> list[Chunk]:
     """Proses satu file .md dan return list Chunk."""
     content = filepath.read_text(encoding="utf-8")
@@ -307,6 +318,10 @@ def chunk_file(filepath: Path) -> list[Chunk]:
 
 
 def chunk_directory(docs_dir: Path, output_file: Optional[Path] = None) -> list[dict]:
+    """
+    Proses semua file .md dalam direktori (rekursif).
+    Return list of chunk dicts. Opsional simpan ke JSONL.
+    """
     all_chunks = []
     md_files = sorted(docs_dir.rglob("*.md"))
 

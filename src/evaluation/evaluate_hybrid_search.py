@@ -1,32 +1,30 @@
+# src/evaluation/evaluate_retrieval_hybrid_search.py
+
 import json
 import sys
 import os
-import io
 from pathlib import Path
 from collections import defaultdict
-from pinecone import Pinecone
 from dotenv import load_dotenv
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
-from src.retrieval import  retrieve
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parents[2]
+load_dotenv(BASE_DIR / ".env")
+sys.path.append(str(BASE_DIR))
+from src.retrieval.hybrid_search import retrieve
 
-BASE_DIR = Path(__file__).parent.parent
-
-TOP_K     = 5
+TOP_K = 5
 
 def evaluate(eval_path: Path, top_k: int = TOP_K):
     eval_set = json.loads(eval_path.read_text(encoding="utf-8"))
 
-    total        = len(eval_set)
-    hits         = 0
-    rr_list      = []
-    failures     = []
+    total    = len(eval_set)
+    hits     = 0
+    rr_list  = []
+    failures = []
 
-    cat_hits     = defaultdict(int)
-    cat_total    = defaultdict(int)
-    cat_rr       = defaultdict(list)
+    cat_hits  = defaultdict(int)
+    cat_total = defaultdict(int)
+    cat_rr    = defaultdict(list)
 
     print(f"Evaluating {total} queries with top_k={top_k}...\n")
 
@@ -37,7 +35,7 @@ def evaluate(eval_path: Path, top_k: int = TOP_K):
         exp_type = item["expected_chunk_type"]
         category = item["category"]
 
-        matches = retrieve(query, top_k)
+        matches = retrieve(query, top_k, alpha=0.5)
         cat_total[category] += 1
 
         rank = None
@@ -73,20 +71,19 @@ def evaluate(eval_path: Path, top_k: int = TOP_K):
     mrr      = sum(rr_list) / total
 
     print(f"\n{'='*60}")
-    print(f"HASIL EVALUASI RETRIEVAL")
+    print(f"HASIL EVALUASI RETRIEVAL - HYBRID SEARCH")
     print(f"{'='*60}")
     print(f"Total queries : {total}")
     print(f"Hit Rate @{top_k}  : {hit_rate:.2%}")
     print(f"MRR           : {mrr:.3f}")
 
-
     print(f"\n{'-'*60}")
     print(f"{'Kategori':<35} {'Hit Rate':>10} {'MRR':>8} {'N':>5}")
     print(f"{'-'*60}")
     for cat in sorted(cat_total.keys()):
-        n        = cat_total[cat]
-        h        = cat_hits[cat]
-        cat_mrr  = sum(cat_rr[cat]) / n if n else 0
+        n       = cat_total[cat]
+        h       = cat_hits[cat]
+        cat_mrr = sum(cat_rr[cat]) / n if n else 0
         print(f"  {cat:<33} {h/n:>9.1%} {cat_mrr:>8.3f} {n:>5}")
 
     if failures:
@@ -117,7 +114,7 @@ def evaluate(eval_path: Path, top_k: int = TOP_K):
         "failures" : failures
     }
 
-    out_path = BASE_DIR / "data" / "evaluation_result.json"
+    out_path = BASE_DIR / "data" / "evaluation_result_hybrid_search_v2.json"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2))
     print(f"\nHasil disimpan ke: {out_path}")
@@ -127,4 +124,4 @@ def evaluate(eval_path: Path, top_k: int = TOP_K):
 if __name__ == "__main__":
     eval_path = Path(sys.argv[1]) if len(sys.argv) > 1 else BASE_DIR / "data" / "evaluation_set.json"
     top_k     = int(sys.argv[2]) if len(sys.argv) > 2 else TOP_K
-    evaluate(eval_path, top_k=top_k)
+    evaluate(eval_path, top_k)
