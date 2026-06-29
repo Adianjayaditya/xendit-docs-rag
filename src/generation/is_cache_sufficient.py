@@ -9,13 +9,14 @@ from pathlib import Path
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 SYSTEM_PROMPT = """Kamu adalah asisten dokumentasi Xendit yang membantu developer memahami produk dan API Xendit.
-Jawab pertanyaan berdasarkan konteks dokumentasi yang diberikan.
-Jika jawabannya tidak ada di konteks, katakan bahwa kamu tidak menemukan informasi tersebut di dokumentasi.
-Jawab dalam bahasa yang sama dengan pertanyaan user (Indonesia atau Inggris)."""
+Tugas anda adalah membuat keputusan untuk menentukan apakah informasi yang diberikan kepada anda apakah dapat menjawab pertanyaan dari user.
+Informasi yang anda terima ini berupa retrieved chunks yang di cached di suatu system RAG. Anda hanya dapat menentukan keputusan berdasarkan dari informasi yang diberikan, tidak informasi umum di luar dari informasi yang diberikan kepada anda. 
+Jika anda tidak dapat menjawab pertanyaan berdasarkan informasi tersebut, maka lakukan output NO saja. Tetapi, jika anda bisa menjawab pertanyaan tersebut dengan informasi yang diberikan, lakukan output YES saja."""
 
-def build_prompt(query: str, matches: list[dict]) -> str:
+
+def build_prompt_decision(query: str, cached_chunks: list[dict]) -> str:
     context_parts = []
-    for i, match in enumerate(matches, 1):
+    for i, match in enumerate(cached_chunks, 1):
         meta  = match.get("metadata", {})
         title = meta.get("title", "")
         chunk = meta.get("text", "")
@@ -33,7 +34,7 @@ Pertanyaan: {query}
 Jawaban:"""
 
 
-def generate(client: genai.Client, prompt: str) -> str:
+def cache_sufficient_decision(client: genai.Client, prompt: str) -> str:
     response = client.models.generate_content(
         model="gemini-2.5-flash",
         contents=prompt,
