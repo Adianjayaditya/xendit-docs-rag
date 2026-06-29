@@ -35,6 +35,9 @@ if "messages" not in st.session_state:
 if "sources" not in st.session_state:
     st.session_state.sources = {}
 
+if "cached_chunks" not in st.session_state:
+    st.session_state.cached_chunks = []
+
 # Tampilkan chat history
 for i, msg in enumerate(st.session_state.messages):
     with st.chat_message(msg["role"]):
@@ -70,9 +73,12 @@ if prompt := st.chat_input("Tanya tentang Xendit..."):
                 query=prompt,
                 pc=pc,
                 client=client,
+                cached_chunks=st.session_state.cached_chunks,
                 retrieve_top_k=20,
                 rerank_top_n=3,
             )
+            if matches:
+                st.session_state.cached_chunks = matches
         st.markdown(answer)
 
         if matches:
